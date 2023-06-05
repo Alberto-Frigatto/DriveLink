@@ -11,6 +11,10 @@
 
 <br/>
 
+> ⚠️ Para clonar o repositório você precisará do [Git LFS](https://git-lfs.com)
+
+<br/>
+
 ---
 
 <br/>
