@@ -1,0 +1,56 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="CCB7785E-6542-E7F7-9AC0-3330F2E2E9EC" name="T_DL_FABRICANTE">
+<createdBy>danil</createdBy>
+<createdTime>2023-05-19 00:22:11 UTC</createdTime>
+<ownerDesignName>DL_BRQ_datamodeler</ownerDesignName>
+<engineerTo>
+<item key="748F7ACB-9546-7F14-B116-AA4C5626BC20" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>FABRICANTE</shortName>
+<synonym>FABRICANTE</synonym>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_fabricante" id="FCC16E9C-CF64-3A09-8A17-074A85CD58F0">
+<createdBy>danil</createdBy>
+<createdTime>2023-05-19 00:22:26 UTC</createdTime>
+<ownerDesignName>DL_BRQ_datamodeler</ownerDesignName>
+<engineerTo>
+<item key="748F7ACB-9546-7F14-B116-AA4C5626BC20" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_fabricante" id="988A0313-F39E-4FDC-FBC2-A77FB3EDBCED">
+<createdBy>danil</createdBy>
+<createdTime>2023-05-19 00:22:32 UTC</createdTime>
+<ownerDesignName>DL_BRQ_datamodeler</ownerDesignName>
+<engineerTo>
+<item key="748F7ACB-9546-7F14-B116-AA4C5626BC20" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A7B6B6D7-F95B-58A5-0B7E-CDBE5DE4EB26" name="T_DL_FABRICANTE PK">
+<createdBy>danil</createdBy>
+<createdTime>2023-05-19 00:22:31 UTC</createdTime>
+<ownerDesignName>DL_BRQ_datamodeler</ownerDesignName>
+<engineerTo>
+<item key="748F7ACB-9546-7F14-B116-AA4C5626BC20" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>FCC16E9C-CF64-3A09-8A17-074A85CD58F0</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

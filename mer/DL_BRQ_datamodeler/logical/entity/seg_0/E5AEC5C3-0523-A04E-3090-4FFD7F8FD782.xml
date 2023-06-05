@@ -1,0 +1,67 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E5AEC5C3-0523-A04E-3090-4FFD7F8FD782" name="T_DL_TIPO_DOCUMENTO">
+<createdBy>danil</createdBy>
+<createdTime>2023-05-19 00:48:37 UTC</createdTime>
+<ownerDesignName>DL_BRQ_datamodeler</ownerDesignName>
+<engineerTo>
+<item key="748F7ACB-9546-7F14-B116-AA4C5626BC20" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>TipoDocumento</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_tipo_documento" id="9B9DD8A0-085F-95FA-9D70-E4C736F5002B">
+<createdBy>danil</createdBy>
+<createdTime>2023-05-19 00:49:07 UTC</createdTime>
+<ownerDesignName>DL_BRQ_datamodeler</ownerDesignName>
+<engineerTo>
+<item key="748F7ACB-9546-7F14-B116-AA4C5626BC20" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_documento" id="8BE9587A-00D6-A063-2909-D2F075044ABE">
+<createdBy>danil</createdBy>
+<createdTime>2023-05-19 00:49:18 UTC</createdTime>
+<ownerDesignName>DL_BRQ_datamodeler</ownerDesignName>
+<engineerTo>
+<item key="748F7ACB-9546-7F14-B116-AA4C5626BC20" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="status" id="FA427F65-FB65-7F59-7BE1-B3602BD2A7C6">
+<createdBy>danil</createdBy>
+<createdTime>2023-05-19 00:49:26 UTC</createdTime>
+<commentInRDBMS><![CDATA[Indica se aquele documento esta ativo ou não...]]></commentInRDBMS>
+<ownerDesignName>DL_BRQ_datamodeler</ownerDesignName>
+<engineerTo>
+<item key="748F7ACB-9546-7F14-B116-AA4C5626BC20" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A9D301CB-CFE4-23B5-217F-56E6B9D6F206" name="T_DL_TipoDocumento PK">
+<createdBy>danil</createdBy>
+<createdTime>2023-05-19 00:49:17 UTC</createdTime>
+<ownerDesignName>DL_BRQ_datamodeler</ownerDesignName>
+<engineerTo>
+<item key="748F7ACB-9546-7F14-B116-AA4C5626BC20" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>9B9DD8A0-085F-95FA-9D70-E4C736F5002B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

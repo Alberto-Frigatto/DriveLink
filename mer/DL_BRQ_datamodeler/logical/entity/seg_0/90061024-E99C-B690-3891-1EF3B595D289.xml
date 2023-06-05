@@ -1,0 +1,92 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="90061024-E99C-B690-3891-1EF3B595D289" name="T_DL_DOCUMENTOS_CLIENTE">
+<createdBy>danil</createdBy>
+<createdTime>2023-05-19 00:30:06 UTC</createdTime>
+<ownerDesignName>DL_BRQ_datamodeler</ownerDesignName>
+<engineerTo>
+<item key="748F7ACB-9546-7F14-B116-AA4C5626BC20" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>DOCUMENTOS</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_documento" id="88243CBC-E92B-0DD9-9D05-8C1E92C98C50">
+<createdBy>danil</createdBy>
+<createdTime>2023-05-19 00:30:57 UTC</createdTime>
+<ownerDesignName>DL_BRQ_datamodeler</ownerDesignName>
+<engineerTo>
+<item key="748F7ACB-9546-7F14-B116-AA4C5626BC20" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_cliente" id="9042E4ED-F8A5-CE42-F6D9-3F6DAA978F3B">
+<createdBy>alber</createdBy>
+<createdTime>2023-05-19 01:34:35 UTC</createdTime>
+<generatorID>A83B1E56-1FBE-7FFE-E32D-A3EC40ADE0A5</generatorID>
+<ownerDesignName>DL_BRQ_datamodeler</ownerDesignName>
+<engineerTo>
+<item key="748F7ACB-9546-7F14-B116-AA4C5626BC20" value="true"/>
+</engineerTo>
+<referedAttribute>01E6C7FE-8FDF-AF16-1997-61774C6D5039</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_tipo_documento" id="530EC582-A795-F6A8-936E-8F2DCED489F7">
+<createdBy>alber</createdBy>
+<createdTime>2023-05-19 01:32:01 UTC</createdTime>
+<generatorID>728C6206-7E36-EB24-8580-31D7D7A85778</generatorID>
+<ownerDesignName>DL_BRQ_datamodeler</ownerDesignName>
+<engineerTo>
+<item key="748F7ACB-9546-7F14-B116-AA4C5626BC20" value="true"/>
+</engineerTo>
+<referedAttribute>9B9DD8A0-085F-95FA-9D70-E4C736F5002B</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_caminho_foto" id="C66CBEB4-3A17-2C35-9677-79DBE72294C9">
+<createdBy>danil</createdBy>
+<createdTime>2023-05-19 00:38:45 UTC</createdTime>
+<ownerDesignName>DL_BRQ_datamodeler</ownerDesignName>
+<engineerTo>
+<item key="748F7ACB-9546-7F14-B116-AA4C5626BC20" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="flag_status" id="8D8B3BF9-D894-5EBD-8609-369B96BEF8CD">
+<createdBy>danil</createdBy>
+<createdTime>2023-05-19 00:40:04 UTC</createdTime>
+<commentInRDBMS><![CDATA[Indica se a foto esta aprovada ou não.
+Alterar o nome do campo*]]></commentInRDBMS>
+<ownerDesignName>DL_BRQ_datamodeler</ownerDesignName>
+<engineerTo>
+<item key="748F7ACB-9546-7F14-B116-AA4C5626BC20" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="3D3DC73E-8A81-9B88-18E9-30117B8EA5AC" name="T_DL_DOCUMENTOS_CLIENTE PK">
+<createdBy>danil</createdBy>
+<createdTime>2023-05-19 00:31:08 UTC</createdTime>
+<ownerDesignName>DL_BRQ_datamodeler</ownerDesignName>
+<engineerTo>
+<item key="748F7ACB-9546-7F14-B116-AA4C5626BC20" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>88243CBC-E92B-0DD9-9D05-8C1E92C98C50</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="DL_BRQ_datamodeler" id="6E1A0F6E-C44A-0A0E-DB4A-AF7A1EFE06E2" version="3.5">
+<createdBy>alber</createdBy>
+<createdTime>2023-05-13 22:11:55 UTC</createdTime>
+<ownerDesignName>mer_brq</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>6E1A0F6E-C44A-0A0E-DB4A-AF7A1EFE06E2</designId>
+</OSDM_Design>

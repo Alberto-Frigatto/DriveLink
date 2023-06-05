@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="86D0A352-B7BA-3AF9-84EE-919B06FF10D1" name="T_DL_FOTO_VISTORIA">
+<createdBy>danil</createdBy>
+<createdTime>2023-05-19 01:07:14 UTC</createdTime>
+<ownerDesignName>DL_BRQ_datamodeler</ownerDesignName>
+<engineerTo>
+<item key="748F7ACB-9546-7F14-B116-AA4C5626BC20" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_foto_vistoria" id="25FBB1B9-ED33-C27B-6245-5C3A6CC4F241">
+<createdBy>danil</createdBy>
+<createdTime>2023-05-19 01:07:33 UTC</createdTime>
+<ownerDesignName>DL_BRQ_datamodeler</ownerDesignName>
+<engineerTo>
+<item key="748F7ACB-9546-7F14-B116-AA4C5626BC20" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_vistoria" id="3E663110-E33D-0B66-C6A9-D52CD22A64B5">
+<createdBy>alber</createdBy>
+<createdTime>2023-05-19 01:38:31 UTC</createdTime>
+<generatorID>40AF19B4-AB38-1194-9D83-05F2BAAC2F0E</generatorID>
+<ownerDesignName>DL_BRQ_datamodeler</ownerDesignName>
+<engineerTo>
+<item key="748F7ACB-9546-7F14-B116-AA4C5626BC20" value="true"/>
+</engineerTo>
+<referedAttribute>EC42F0A3-E177-2A9B-6B3A-429B06E192CC</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_caminho_foto" id="EAE0DDD5-EFFE-4478-C001-9886C4D6B1AB">
+<createdBy>danil</createdBy>
+<createdTime>2023-05-19 01:07:56 UTC</createdTime>
+<ownerDesignName>DL_BRQ_datamodeler</ownerDesignName>
+<engineerTo>
+<item key="748F7ACB-9546-7F14-B116-AA4C5626BC20" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_comentario" id="E52E3C48-EC57-A55D-504C-27805C387F1A">
+<createdBy>danil</createdBy>
+<createdTime>2023-05-19 01:08:08 UTC</createdTime>
+<ownerDesignName>DL_BRQ_datamodeler</ownerDesignName>
+<engineerTo>
+<item key="748F7ACB-9546-7F14-B116-AA4C5626BC20" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="113B10B6-C5DD-CE17-3305-539506725922" name="T_DL_FOTO_VISTORIA PK">
+<createdBy>danil</createdBy>
+<createdTime>2023-05-19 01:07:43 UTC</createdTime>
+<ownerDesignName>DL_BRQ_datamodeler</ownerDesignName>
+<engineerTo>
+<item key="748F7ACB-9546-7F14-B116-AA4C5626BC20" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>25FBB1B9-ED33-C27B-6245-5C3A6CC4F241</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

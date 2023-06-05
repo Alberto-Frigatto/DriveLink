@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Salvar" directorySegmentName="seg_0" id="4700084D-3791-79AE-DA49-3E5E2584A356">
+<createdBy>alber</createdBy>
+<createdTime>2023-05-14 17:02:45 UTC</createdTime>
+<ownerDesignName>DL_BRQ_datamodeler</ownerDesignName>
+<engineerTo>
+<item key="748F7ACB-9546-7F14-B116-AA4C5626BC20" value="true"/>
+</engineerTo>
+<sourcePk>D7A55367-5313-5444-3420-3859CD00F1E1</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>6DE8F623-CFD8-C6C4-4754-2F28532E966D</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>6B0D5A1E-6BA4-2DFF-A70F-ADCD4536798B</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

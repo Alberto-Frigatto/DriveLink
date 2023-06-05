@@ -1,0 +1,58 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="6B0D5A1E-6BA4-2DFF-A70F-ADCD4536798B" name="T_DL_VEICULO_SALVO">
+<createdBy>alber</createdBy>
+<createdTime>2023-05-14 00:19:33 UTC</createdTime>
+<ownerDesignName>DL_BRQ_datamodeler</ownerDesignName>
+<engineerTo>
+<item key="748F7ACB-9546-7F14-B116-AA4C5626BC20" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="nr_placa" id="0F171627-DF73-8259-54F9-DD47E5EC36AB">
+<createdBy>alber</createdBy>
+<createdTime>2023-05-14 00:21:00 UTC</createdTime>
+<generatorID>C2568886-92B9-04D8-18A1-A657EE9D6966</generatorID>
+<ownerDesignName>DL_BRQ_datamodeler</ownerDesignName>
+<engineerTo>
+<item key="748F7ACB-9546-7F14-B116-AA4C5626BC20" value="true"/>
+</engineerTo>
+<referedAttribute>C27E40D6-A995-4D27-0D9F-57A0B826A17C</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_cliente" id="40B4A14A-34F1-4F1D-F000-87FFFA4EBED6">
+<createdBy>alber</createdBy>
+<createdTime>2023-05-14 17:02:45 UTC</createdTime>
+<generatorID>4700084D-3791-79AE-DA49-3E5E2584A356</generatorID>
+<ownerDesignName>DL_BRQ_datamodeler</ownerDesignName>
+<engineerTo>
+<item key="748F7ACB-9546-7F14-B116-AA4C5626BC20" value="true"/>
+</engineerTo>
+<referedAttribute>01E6C7FE-8FDF-AF16-1997-61774C6D5039</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F86A39D8-F4CB-0A91-F8C7-05A2D87E7115" name="T_VEICULO_SALVO PK">
+<createdBy>alber</createdBy>
+<createdTime>2023-05-14 15:23:03 UTC</createdTime>
+<ownerDesignName>DL_BRQ_datamodeler</ownerDesignName>
+<engineerTo>
+<item key="748F7ACB-9546-7F14-B116-AA4C5626BC20" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>0F171627-DF73-8259-54F9-DD47E5EC36AB</attributeRef>
+<attributeRef>40B4A14A-34F1-4F1D-F000-87FFFA4EBED6</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
