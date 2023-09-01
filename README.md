@@ -46,6 +46,23 @@ albertofrigatto.comercial@gmail.com
 
 ## Gustavo Rodrigues Lopes
 
+<img
+    src='./img/gustavo.png'
+    width='130'
+/>
+
+guhrlopes999@gmail.com
+
+[Instagram](https://www.instagram.com/gustavo.r.lopes/)
+
 <br/>
 
 ## Renato Luís Souza Brandão Júnior
+
+
+<img
+    src='./img/renato.png'
+    width='130'
+/>
+
+renatojr_designer@outlook.com
