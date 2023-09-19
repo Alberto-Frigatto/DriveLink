@@ -1,0 +1,198 @@
+@use '../../../../node_modules/frigattos' as fg;
+@use '../vars';
+
+.home-page
+{
+    .search-form
+    {
+        align-self: stretch;
+        margin-bottom: 2rem;
+
+        .form-floating
+        {
+            position: relative;
+
+            i
+            {
+                @include fg.position-top-right(absolute, 50%, 1.5rem);
+                font-size: 1.5rem;
+                color: vars.$grey-3;
+                transform: translateY(-50%);
+            }
+        }
+    }
+
+    .kind-vehicles
+    {
+        @include fg.column;
+        margin-bottom: 2rem;
+        gap: 1rem;
+        overflow: hidden;
+        width: 100%;
+
+        span
+        {
+            margin-bottom: 1rem;
+            font-size: 1.5rem;
+        }
+
+        .kinds
+        {
+            display: flex;
+            gap: .5rem;
+
+            .kind
+            {
+                font-size: 1.15rem;
+                cursor: pointer;
+            }
+        }
+    }
+
+    .filter
+    {
+        display: flex;
+        align-self: stretch;
+        align-items: baseline;
+        justify-content: space-between;
+        margin-bottom: 1rem;
+
+        &-result
+        {
+            font-size: 1.2rem;
+            color: vars.$aqua;
+            font-weight: bold;
+
+            span
+            {
+                font-weight: bold;
+                color: vars.$dark-blue;
+            }
+        }
+
+        &-btn
+        {
+            display: flex;
+            gap: .5rem;
+            border: solid 1px vars.$grey-4 {
+                radius: vars.$radius;
+            };
+            font-size: 1.1rem;
+            background: transparent;
+            padding: .5rem .7rem;
+        }
+    }
+
+    .cars-cards
+    {
+        @include fg.column;
+        gap: 2rem;
+        align-self: stretch;
+
+        .car-card
+        {
+            @include fg.column;
+            position: relative;
+            overflow: hidden;
+            background: var(--bg);
+            border-radius: vars.$radius;
+
+            .favorite-btn
+            {
+                @include fg.position-top-right(absolute, 1rem, 1rem);
+                background: transparent;
+                border: none;
+                line-height: 0;
+
+                i
+                {
+                    font-size: 2rem;
+                    color: var(--clr);
+                }
+            }
+
+            .badge
+            {
+                @include fg.position-top-left(absolute, 1rem, 1rem);
+                background: var(--bg);
+                color: var(--clr);
+                font-weight: bold;
+                padding: .2rem .5rem;
+                border-radius: vars.$radius;
+            }
+
+            .img-container
+            {
+                align-self: stretch;
+
+                .car-img
+                {
+                    @include fg.cut-img(100%, calc(12rem + 2vw));
+                    border-radius: vars.$radius;
+                }
+            }
+
+            .info
+            {
+                @include fg.column;
+                padding: .5rem 1rem 1rem;
+
+                .name-and-distance
+                {
+                    display: flex;
+                    justify-content: space-between;
+
+                    .name,
+                    .distance
+                    {
+                        font-weight: bold;
+                        color: vars.$dark-blue;
+                        font-size: 1.1rem;
+                    }
+                }
+
+                .rating-and-price
+                {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: baseline;
+
+                    .rating
+                    {
+                        color: vars.$grey-5;
+
+                        i
+                        {
+                            color: vars.$yellow;
+                        }
+                    }
+
+                    .price
+                    {
+                        .value
+                        {
+                            font-size: 2rem;
+                            color: var(--clr);
+
+                            &::before
+                            {
+                                content: 'R$';
+                            }
+                        }
+
+                        .time
+                        {
+                            color: vars.$grey-5;
+                            
+                            &::before
+                            {
+                                content: '/';
+                                font-size: 1.7rem;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

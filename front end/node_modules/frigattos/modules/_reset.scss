@@ -1,0 +1,77 @@
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+html {
+  font-size: 16px;
+}
+
+html,
+body {
+  min-height: 100vh;
+}
+
+body {
+  position: relative;
+  overflow-x: hidden;
+}
+
+:focus,
+:focus-visible {
+  outline: 0;
+}
+
+textarea {
+  resize: vertical;
+}
+
+code,
+kbd,
+samp
+{
+  background: #333;
+  color: #fff;
+  font-size: .9rem;
+  padding: .3rem .5rem;
+  border-radius: .4rem;
+}

@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Alberto, Adriano, Danilo, Gustavo, Renato">
+    <meta name="description" content="Challenge da BRQ">
+    <title>DriveLink - Check in</title>
+    <link rel="stylesheet" href="../static/css/styles.min.css">
+    <script src="../static/js/app.js" defer></script>
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.min.js" defer></script>
+</head>
+<body>
+    <main class="full-width checkin-page">
+        <h1 class="title-with-bg">Check in</h1>
+
+        <div class="form-container">
+            <h2>Preencha os campos</h2>
+
+            <form action="" class="checkin-form">
+                <h3 class="form-title">O veículo...</h3>
+                <div class="check-item">
+                    <div class="primary-check form-check">
+                        <input type="checkbox" class="form-check-input" name="avaria" id="avaria">
+                        <label class="form-check-label" for="avaria">Sofreu alguma avaria?</label>
+                    </div>
+                    <div class="secondary-check">
+                        <h3>Qual?</h3>
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" name="batida" id="batida">
+                            <label class="form-check-label" for="batida">Batida</label>
+                        </div>
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" name="arranhão" id="arranhão">
+                            <label class="form-check-label" for="arranhão">Motor</label>
+                        </div>
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" name="eletrica" id="eletrica">
+                            <label class="form-check-label" for="eletrica">Sistema eletrico</label>
+                        </div>
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" name="ar-cond" id="ar-cond">
+                            <label class="form-check-label" for="ar-cond">Ar condicionado</label>
+                        </div>
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" name="ruidos" id="ruidos">
+                            <label class="form-check-label" for="ruidos">Surgimento de ruídos</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="check-item">
+                    <div class="primary-check">
+                        <input type="checkbox" class="form-check-input" name="tanque" id="tanque">
+                        <label class="form-check-label" for="tanque">Está com tanque cheio?</label>
+                    </div>
+                </div>
+            </form>
+        </div>
+
+        <a href="./returned_vehicle.html" class="btn btn-primary confirm-btn">Confirmar</a>
+    </main>
+
+    <aside class="offcanvas offcanvas-end" id="sidebar">
+        <div class="offcanvas-header">
+            <img src="../static/img/perfil.png" alt="Imagem do Amado Batista" class="perfil-photo">
+            <div class="info">
+                <span class="name">Olá, Amado Batista</span>
+                <div class="tenancy-qty">25 carros alugados</div>
+            </div>
+        </div>
+        <div class="offcanvas-body">
+            <nav class="options-list">
+                <a href="" class="option">
+                    <i class="bi bi-person-circle"></i>
+                    <span>Minha conta</span>
+                </a>
+                <a href="" class="option">
+                    <i class="bi bi-bell"></i>
+                    <span>Notificações</span>
+                </a>
+                <a href="" class="option">
+                    <i class="bi bi-car-front"></i>
+                    <span>Minhas locações</span>
+                </a>
+                <a href="" class="option">
+                    <i class="bi bi-heart"></i>
+                    <span>Favoritos</span>
+                </a>
+                <a href="" class="option">
+                    <i class="bi bi-tag"></i>
+                    <span>Promoções</span>
+                </a>
+                <a href="" class="option">
+                    <i class="bi bi-file-earmark"></i>
+                    <span>Documentos</span>
+                </a>
+                <a href="" class="option">
+                    <i class="bi bi-credit-card"></i>
+                    <span>Cartões</span>
+                </a>
+                <a href="" class="option">
+                    <i class="bi bi-question-circle"></i>
+                    <span>Ajuda</span>
+                </a>
+                <a href="" class="option">
+                    <i class="bi bi-gear"></i>
+                    <span>Configurações</span>
+                </a>
+            </nav>
+            <a href="./login.html" class="btn btn-danger logout-btn">
+                <i class="bi bi-box-arrow-right"></i>
+                <span>Sair</span>
+            </a>
+        </div>
+    </aside>
+
+    <footer class="footer-app">
+        <div class="options">
+            <a href="./home.html" class="option">
+                <i class="bi bi-house"></i>
+                <span>Início</span>
+            </a>
+            <a href="" class="option">
+                <i class="bi bi-map"></i>
+                <span>Mapa</span>
+            </a>
+            <a href="./chat.html" class="option">
+                <i class="bi bi-chat-dots" id="chat-icon"></i>
+                <span>Chat</span>
+            </a>
+            <a data-bs-toggle="offcanvas" href="#sidebar" role="button" class="option">
+                <img src="../static/img/perfil.png" alt="Foto de perfil de Amado Batista">
+                <span>Perfil</span>
+            </a>
+        </div>
+    </footer>
+</body>
+</html>

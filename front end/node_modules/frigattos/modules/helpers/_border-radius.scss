@@ -1,0 +1,31 @@
+@mixin top($radius: .5rem)
+{
+  border-top: {
+    left-radius: $radius;
+    right-radius: $radius;
+  }
+}
+
+@mixin bottom($radius: .5rem)
+{
+  border-bottom: {
+    left-radius: $radius;
+    right-radius: $radius;
+  }
+}
+
+@mixin left($radius: .5rem)
+{
+  border: {
+    top-left-radius: $radius;
+    bottom-left-radius: $radius;
+  }
+}
+
+@mixin right($radius: .5rem)
+{
+  border: {
+    top-right-radius: $radius;
+    bottom-right-radius: $radius;
+  }
+}

@@ -1,0 +1,19 @@
+@use 'sass:color';
+
+$aqua: #0CDAC1;
+$dark-aqua: color.adjust($aqua, $lightness: -10%);
+$dark-blue: #30425A;
+$red: #EB2211;
+$background-light: #F8F8F8;
+$yellow: #F5C11F;
+$green: #51DF34;
+
+$grey-1: #f0f0f0;
+$grey-2: #dfdfdf;
+$grey-3: #9fa4af;
+$grey-4: #a7a7a7;
+$grey-5: #828285;
+$grey-6: #6b6b6b;
+$grey-7: #474747;
+
+$radius: 1.5rem;

@@ -1,0 +1,22 @@
+@use './vars';
+@use '../../../node_modules/frigattos' as fg;
+
+@mixin ring($size, $top, $left, $rotate, $ball-size, $ball-left)
+{
+    width: $size;
+    height: $size;
+    @include fg.position-top-left(fixed, $top, $left);
+    transform: rotate($rotate);
+    z-index: -1;
+    border: solid 1px vars.$grey-2 {
+        radius: 50%;
+    };
+
+    &::before
+    {
+        content: '\a0';
+        @include fg.circle($ball-size, vars.$aqua);
+        position: absolute;
+        left: $ball-left;
+    }
+}

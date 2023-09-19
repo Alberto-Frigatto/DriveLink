@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Alberto, Adriano, Danilo, Gustavo, Renato">
+    <meta name="description" content="Challenge da BRQ">
+    <title>DriveLink - Chat</title>
+    <link rel="stylesheet" href="../static/css/styles.min.css">
+    <script src="../static/js/app.js" defer></script>
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.min.js" defer></script>
+</head>
+<body>
+    <main class="full-width chat-page">
+        <div class="ring-1"></div>
+        <div class="ring-2"></div>
+
+        <header>
+            <div class="owner-img-container">
+                <img src="../static/img/car_owner.png" alt="Imagem de Tim Maia">
+                <div class="online-icon"></div>
+            </div>
+            <div class="name-and-rating">
+                <span class="name">Tim Maia</span>
+                <div class="rating">
+                    <i class="bi bi-star-fill"></i>
+                    <span>4.8</span>
+                </div>
+            </div>
+        </header>
+        <div class="chat">
+            <div class="msg sender-msg">
+                Me dê motivo para pegar o carro
+            </div>
+            <div class="msg recipient-msg">
+                <i class="bi bi-three-dots"></i>
+            </div>
+        </div>
+    </main>
+
+    <aside class="offcanvas offcanvas-end" id="sidebar">
+        <div class="offcanvas-header">
+            <img src="../static/img/perfil.png" alt="Imagem do Amado Batista" class="perfil-photo">
+            <div class="info">
+                <span class="name">Olá, Amado Batista</span>
+                <div class="tenancy-qty">25 carros alugados</div>
+            </div>
+        </div>
+        <div class="offcanvas-body">
+            <nav class="options-list">
+                <a href="" class="option">
+                    <i class="bi bi-person-circle"></i>
+                    <span>Minha conta</span>
+                </a>
+                <a href="" class="option">
+                    <i class="bi bi-bell"></i>
+                    <span>Notificações</span>
+                </a>
+                <a href="" class="option">
+                    <i class="bi bi-car-front"></i>
+                    <span>Minhas locações</span>
+                </a>
+                <a href="" class="option">
+                    <i class="bi bi-heart"></i>
+                    <span>Favoritos</span>
+                </a>
+                <a href="" class="option">
+                    <i class="bi bi-tag"></i>
+                    <span>Promoções</span>
+                </a>
+                <a href="" class="option">
+                    <i class="bi bi-file-earmark"></i>
+                    <span>Documentos</span>
+                </a>
+                <a href="" class="option">
+                    <i class="bi bi-credit-card"></i>
+                    <span>Cartões</span>
+                </a>
+                <a href="" class="option">
+                    <i class="bi bi-question-circle"></i>
+                    <span>Ajuda</span>
+                </a>
+                <a href="" class="option">
+                    <i class="bi bi-gear"></i>
+                    <span>Configurações</span>
+                </a>
+            </nav>
+            <a href="./login.html" class="btn btn-danger logout-btn">
+                <i class="bi bi-box-arrow-right"></i>
+                <span>Sair</span>
+            </a>
+        </div>
+    </aside>
+
+    <footer class="footer-app">
+        <div class="footer-top">
+            <form action="" class="chat-form">
+                <input type="text" class="form-control" id="msg" placeholder="Digite uma mensagem">
+                <button type="button" class="sent-btn btn btn-success">
+                    <i class="bi bi-arrow-right"></i>
+                </button>
+            </form>
+        </div>
+        <div class="options">
+            <a href="./home.html" class="option">
+                <i class="bi bi-house"></i>
+                <span>Início</span>
+            </a>
+            <a href="" class="option">
+                <i class="bi bi-map"></i>
+                <span>Mapa</span>
+            </a>
+            <a href="" class="option">
+                <i class="bi bi-chat-dots-fill text-success"></i>
+                <span>Chat</span>
+            </a>
+            <a data-bs-toggle="offcanvas" href="#sidebar" role="button" class="option">
+                <img src="../static/img/perfil.png" alt="Foto de perfil de Amado Batista">
+                <span>Perfil</span>
+            </a>
+        </div>
+    </footer>
+</body>
+</html>

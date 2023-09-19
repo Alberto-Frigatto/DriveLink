@@ -1,0 +1,210 @@
+@use '../../../../node_modules/frigattos' as fg;
+@use '../vars';
+
+.car-page
+{
+    .car-photos
+    {
+        display: grid;
+        grid-template: {
+            columns: repeat(3, 1fr);
+            rows: calc(13rem + 2vw) calc(6rem + 2vw);
+        }
+        gap: .5rem;
+        margin-bottom: 1rem;
+        align-self: stretch;
+
+        button
+        {
+            cursor: pointer;
+            border-radius: .7rem;
+            overflow: hidden;
+            background: transparent;
+            border: none;
+
+            &:nth-child(1)
+            {
+                grid-column: {
+                    start: 1;
+                    end: 4;
+                };
+            }
+
+            img
+            {
+                @include fg.cut-img(100%, 100%);
+            }
+        }
+    }
+
+    #img-lg img
+    {
+        width: 100%;
+        object: {
+            fit: cover;
+            position: center;
+        }
+    }
+
+    .owner-info
+    {
+        display: flex;
+        align-self: stretch;
+        align-items: center;
+        margin-bottom: 1rem;
+        padding-inline: 1rem;
+        gap: 1rem;
+
+        .owner-photo
+        {
+            @include fg.cut-img(calc(3rem + 1vw), calc(3rem + 1vw));
+            border-radius: 50%;
+        }
+
+        .name-and-rating
+        {
+            @include fg.column;
+            flex-grow: 1;
+
+            .name
+            {
+                font: {
+                    size: 1.1rem;
+                    weight: bold;
+                }
+                color: vars.$dark-blue;
+            }
+
+            .rating
+            {
+                display: flex;
+                align-items: center;
+                gap: .5rem;
+                color: vars.$grey-6;
+
+                i
+                {
+                    color: vars.$yellow;
+                }
+            }
+        }
+
+        .favorite-btn
+        {
+            background: transparent;
+            border: none;
+            line-height: 0;
+
+            i
+            {
+                font-size: 2rem;
+                color: vars.$aqua;
+            }
+        }
+    }
+
+    .car-info
+    {
+        display: grid;
+        grid-template: {
+            columns: repeat(3, 1fr);
+            rows: repeat(2, 6rem);
+        };
+        gap: .5rem;
+        align-self: stretch;
+        margin-bottom: 1.5rem;
+
+        .info
+        {
+            @include fg.column-center;
+            justify-content: center;
+            background: vars.$grey-2;
+            border-radius: .7rem;
+
+            img
+            {
+                width: 2.5rem;
+            }
+
+            i
+            {
+                font-size: 2rem;
+            }
+        }
+    }
+
+    .retreat-and-delivery
+    {
+        @include fg.column;
+        align-self: stretch;
+        font-size: 1.1rem;
+        color: vars.$dark-blue;
+        margin-bottom: 2rem;
+
+        div
+        {
+            display: flex;
+            align-items: center;
+            gap: .5rem;
+
+            span:nth-child(1)
+            {
+                font-weight: bold;
+            }
+
+            i
+            {
+                font-size: 1.8rem;
+                color: vars.$aqua;
+            }
+        }
+    }
+
+    .book-price
+    {
+        display: flex;
+        align-items: center;
+        margin-bottom: 2.5rem;
+        border-radius: 50rem;
+        background: vars.$grey-2;
+
+        span
+        {
+            font: {
+                size: 1.5rem;
+                weight: bold;
+            }
+            color: vars.$dark-blue;
+
+            &:nth-child(1)
+            {
+                padding: .7rem 1rem .7rem 1.5rem;
+
+                &::before
+                {
+                    content: 'R$';
+                }
+            }
+
+            &.time
+            {
+                align-self: stretch;
+                background: vars.$dark-blue;
+                color: vars.$aqua;
+                padding: .7rem 1.5rem;
+                border-radius: 50rem;
+            }
+        }
+    }
+
+    .book-btn
+    {
+        font: {
+            size: 1.5rem;
+            weight: bold;
+        }
+        padding: .7rem 1.5rem;
+        width: 80%;
+        border-radius: vars.$radius;
+    }
+}

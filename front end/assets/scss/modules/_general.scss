@@ -1,0 +1,55 @@
+@use '../../../node_modules/frigattos' as fg;
+@use './vars';
+@use './mixins';
+
+@include fg.include-fonts('open sans');
+
+body
+{
+    display: grid;
+    grid-template-columns: 100vw;
+    grid-template-rows: auto max-content;
+    height: 100vh;
+}
+
+main
+{
+    @include fg.include-scrollbar(transparent, transparent, 0);
+    @include fg.column-center;
+    overflow: auto;
+    margin-inline: 1rem;
+    padding-bottom: 1rem;
+
+    .ring-1
+    {
+        @include mixins.ring(20rem, 2rem, 82%, -20deg, 4rem, 15%)
+    }
+
+    .ring-2
+    {
+        @include mixins.ring(13rem, 18rem, -30%, 80deg, 2rem, 15%)
+    }
+
+    h1
+    {
+        padding-top: 1rem;
+        margin-block: 2rem;
+    }
+
+    &.full-width
+    {
+        margin-inline: 0;
+        
+        .title-with-bg
+        {
+            margin-bottom: -3rem;
+            padding: 2rem 2rem 5rem;
+            background: vars.$dark-blue;
+            color: white;
+            font-size: 1.6rem;
+            border-radius: vars.$radius;
+            text-align: center;
+            align-self: stretch;
+        }
+    }
+}

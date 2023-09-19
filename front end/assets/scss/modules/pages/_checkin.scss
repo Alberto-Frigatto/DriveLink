@@ -1,0 +1,98 @@
+@use '../../../../node_modules/frigattos' as fg;
+@use '../vars';
+
+.checkin-page
+{
+    .form-container
+    {
+        @include fg.column;
+        gap: 1rem;
+        background: white;
+        align-self: stretch;
+        border-radius: vars.$radius;
+        padding: 1rem;
+        
+        h2
+        {
+            text-align: center;
+        }
+        
+        .checkin-form
+        {
+            @include fg.column;
+            gap: .7rem;
+            background: vars.$grey-1;
+            border-radius: vars.$radius;
+            padding: 1rem;
+            
+            .form-title
+            {
+                text-align: center;
+            }
+
+            .check-item
+            {
+                @include fg.column;
+                gap: .7rem;
+
+                .primary-check,
+                .secondary-check
+                {
+                    border-radius: vars.$radius;
+                    padding: 1rem 1.5rem;
+                    background: white;
+                    font-size: 1.1rem;
+                    
+                    input
+                    {
+                        transform: scale(1.8);
+                        accent-color: vars.$aqua;
+                    }
+                }
+
+                .secondary-check
+                {
+                    @include fg.column;
+                    display: none;
+                    gap: .7rem; 
+                    align-items: stretch;
+                    margin-left: 2rem;
+
+                    h3
+                    {
+                        font: {
+                            size: 1.2rem;
+                            weight: bold;
+                        };
+                        text-align: center;
+                    }
+                }
+
+                .primary-check,
+                .secondary-check div
+                {
+                    display: flex;
+                    align-items: center;
+                    gap: 1rem;
+
+                    label
+                    {
+                        flex-grow: 1;
+                    }
+                }
+            }
+        }
+    }
+
+    .confirm-btn
+    {
+        font: {
+            size: 1.5rem;
+            weight: bold;
+        }
+        padding: .7rem 1.5rem;
+        width: 80%;
+        border-radius: vars.$radius;
+        margin-block: auto;
+    }
+}

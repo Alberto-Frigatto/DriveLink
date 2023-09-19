@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Alberto, Adriano, Danilo, Gustavo, Renato">
+    <meta name="description" content="Challenge da BRQ">
+    <title>DriveLink - Home</title>
+    <link rel="stylesheet" href="../static/css/styles.min.css">
+    <script src="../static/js/app.js" defer></script>
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.min.js" defer></script>
+</head>
+<body>
+    <main class="home-page">
+        <h1>Encontre o carro que mais combina com você de forma rápida e fácil</h1>
+
+        <form action="" class="search-form">
+            <div class="form-floating">
+                <input type="search" class="form-control" id="search" placeholder="search">
+                <label for="search">Procurar</label>
+                <i class="bi bi-search"></i>
+            </div>
+        </form>
+
+        <div class="kind-vehicles">
+            <span>Tipos de veículos</span>
+            <div class="kinds">
+                <div class="btn btn-secondary kind">Hatch</div>
+                <div class="btn btn-primary kind">Sedan</div>
+                <div class="btn btn-secondary kind">Moto</div>
+                <div class="btn btn-secondary kind">Van</div>
+                <div class="btn btn-secondary kind">Caminhão</div>
+            </div>
+        </div>
+
+        <div class="filter">
+            <p class="filter-result">
+                <span>Filtro</span>
+                Mais próximo
+            </p>
+            <button type="button" class="filter-btn">
+                <span>ordenar</span>
+                <div class="bi bi-arrow-down-up"></div>
+            </button>
+        </div>
+
+        <section class="cars-cards">
+            <div class="car-card" style="--bg: #e9e2ff; --clr: #3700ff;">
+                <button type="button" class="favorite-btn">
+                    <i class="bi bi-heart"></i>
+                </button>
+                <a href="./car.html">
+                    <div class="badge">Clique nesse</div>
+                    <div class="img-container">
+                        <img src="../static/img/maverick/1.png" alt="Imagem do Maverick V8" class="car-img">
+                    </div>
+                    <div class="info">
+                        <div class="name-and-distance">
+                            <span class="name">Mavecão V8 1970</span>
+                            <span class="distance">2,1km distância</span>
+                        </div>
+                        <div class="rating-and-price">
+                            <div class="rating">
+                                <i class="bi bi-star-fill"></i>
+                                <span>4.8 (421 avaliações)</span>
+                            </div>
+                            <div class="price">
+                                <span class="value">45</span>
+                                <span class="time">hora</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <div class="car-card" style="--bg: #e8ffde; --clr: #35bd00;">
+                <button type="button" class="favorite-btn">
+                    <i class="bi bi-heart"></i>
+                </button>
+                <a href="">
+                    <div class="badge">Mais novo</div>
+                    <div class="img-container">
+                        <img src="../static/img/corolla/1.png" alt="Imagem do Corolla" class="car-img">
+                    </div>
+                    <div class="info">
+                        <div class="name-and-distance">
+                            <span class="name">Toyota Corolla 2021</span>
+                            <span class="distance">3,2km distância</span>
+                        </div>
+                        <div class="rating-and-price">
+                            <div class="rating">
+                                <i class="bi bi-star-fill"></i>
+                                <span>4.5 (326 avaliações)</span>
+                            </div>
+                            <div class="price">
+                                <span class="value">50</span>
+                                <span class="time">dia</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <div class="car-card" style="--bg: #ffecdc; --clr: #d46000;">
+                <button type="button" class="favorite-btn">
+                    <i class="bi bi-heart"></i>
+                </button>
+                <a href="">
+                    <div class="img-container">
+                        <img src="../static/img/onix/1.png" alt="Imagem do Onix" class="car-img">
+                    </div>
+                    <div class="info">
+                        <div class="name-and-distance">
+                            <span class="name">Chevrolet Onix 2023</span>
+                            <span class="distance">3,7km distância</span>
+                        </div>
+                        <div class="rating-and-price">
+                            <div class="rating">
+                                <i class="bi bi-star-fill"></i>
+                                <span>4.6 (854 avaliações)</span>
+                            </div>
+                            <div class="price">
+                                <span class="value">32</span>
+                                <span class="time">dia</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <div class="car-card" style="--bg: #ffe8f8; --clr: #d40094;">
+                <button type="button" class="favorite-btn">
+                    <i class="bi bi-heart"></i>
+                </button>
+                <a href="">
+                    <div class="badge">Luxuoso</div>
+                    <div class="img-container">
+                        <img src="../static/img/m5/1.png" alt="Imagem da bmw m5" class="car-img">
+                    </div>
+                    <div class="info">
+                        <div class="name-and-distance">
+                            <span class="name">BMW M5 2018</span>
+                            <span class="distance">3,9km distância</span>
+                        </div>
+                        <div class="rating-and-price">
+                            <div class="rating">
+                                <i class="bi bi-star-fill"></i>
+                                <span>4.6 (214 avaliações)</span>
+                            </div>
+                            <div class="price">
+                                <span class="value">60</span>
+                                <span class="time">hora</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <div class="car-card" style="--bg: #d3eaff; --clr: #0084ff;">
+                <button type="button" class="favorite-btn">
+                    <i class="bi bi-heart"></i>
+                </button>
+                <a href="">
+                    <div class="badge">Mais popular</div>
+                    <div class="img-container">
+                        <img src="../static/img/hb20/1.png" alt="Imagem do hb20" class="car-img">
+                    </div>
+                    <div class="info">
+                        <div class="name-and-distance">
+                            <span class="name">Hyundai HB20s 2015</span>
+                            <span class="distance">4,1km distância</span>
+                        </div>
+                        <div class="rating-and-price">
+                            <div class="rating">
+                                <i class="bi bi-star-fill"></i>
+                                <span>4.5 (1214 avaliações)</span>
+                            </div>
+                            <div class="price">
+                                <span class="value">30</span>
+                                <span class="time">dia</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <aside class="offcanvas offcanvas-end" id="sidebar">
+        <div class="offcanvas-header">
+            <img src="../static/img/perfil.png" alt="Imagem do Amado Batista" class="perfil-photo">
+            <div class="info">
+                <span class="name">Olá, Amado Batista</span>
+                <div class="tenancy-qty">25 carros alugados</div>
+            </div>
+        </div>
+        <div class="offcanvas-body">
+            <nav class="options-list">
+                <a href="" class="option">
+                    <i class="bi bi-person-circle"></i>
+                    <span>Minha conta</span>
+                </a>
+                <a href="" class="option">
+                    <i class="bi bi-bell"></i>
+                    <span>Notificações</span>
+                </a>
+                <a href="" class="option">
+                    <i class="bi bi-car-front"></i>
+                    <span>Minhas locações</span>
+                </a>
+                <a href="" class="option">
+                    <i class="bi bi-heart"></i>
+                    <span>Favoritos</span>
+                </a>
+                <a href="" class="option">
+                    <i class="bi bi-tag"></i>
+                    <span>Promoções</span>
+                </a>
+                <a href="" class="option">
+                    <i class="bi bi-file-earmark"></i>
+                    <span>Documentos</span>
+                </a>
+                <a href="" class="option">
+                    <i class="bi bi-credit-card"></i>
+                    <span>Cartões</span>
+                </a>
+                <a href="" class="option">
+                    <i class="bi bi-question-circle"></i>
+                    <span>Ajuda</span>
+                </a>
+                <a href="" class="option">
+                    <i class="bi bi-gear"></i>
+                    <span>Configurações</span>
+                </a>
+            </nav>
+            <a href="./login.html" class="btn btn-danger logout-btn">
+                <i class="bi bi-box-arrow-right"></i>
+                <span>Sair</span>
+            </a>
+        </div>
+    </aside>
+
+    <footer class="footer-app">
+        <div class="options">
+            <a href="" class="option">
+                <i class="bi bi-house-fill text-success"></i>
+                <span>Início</span>
+            </a>
+            <a href="" class="option">
+                <i class="bi bi-map"></i>
+                <span>Mapa</span>
+            </a>
+            <a href="" class="option">
+                <i class="bi bi-chat-dots"></i>
+                <span>Chat</span>
+            </a>
+            <a data-bs-toggle="offcanvas" href="#sidebar" role="button" class="option">
+                <img src="../static/img/perfil.png" alt="Foto de perfil de Amado Batista">
+                <span>Perfil</span>
+            </a>
+        </div>
+    </footer>
+</body>
+</html>

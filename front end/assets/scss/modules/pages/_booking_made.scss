@@ -1,0 +1,111 @@
+@use '../../../../node_modules/frigattos' as fg;
+@use '../vars';
+
+.booking-made-page
+{
+    padding-bottom: 0;
+
+    .map
+    {
+        @include fg.cut-img(100%, auto, cover, top);
+        border-radius: vars.$radius;
+    }
+
+    & ~ .footer-app
+    {
+        .footer-top
+        {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            align-items: flex-start;
+            align-self: stretch;
+            background: white;
+            padding: 1rem;
+            border-radius: vars.$radius;
+            gap: .5rem;
+    
+            .car-photo
+            {
+                @include fg.cut-img(100%, 7rem);
+                flex-grow: 1;
+                border-radius: vars.$radius;
+            }
+    
+            & > div
+            {
+                @include fg.column;
+                gap: .5rem;
+                flex-grow: 1;
+    
+                .car-name
+                {
+                    color: vars.$dark-blue;
+                    font: {
+                        size: 1.2rem;
+                        weight: bold;
+                    };
+                }
+    
+                .owner
+                {
+                    display: flex;
+                    align-items: center;
+                    gap: 1rem;
+    
+                    & > div
+                    {
+                        @include fg.column;
+    
+                        .name
+                        {
+                            font-weight: bold;
+                            color: vars.$dark-blue;
+                        }
+    
+                        .rating
+                        {
+                            display: flex;
+                            align-items: center;
+                            gap: .5rem;
+    
+                            i
+                            {
+                                line-height: 0;
+                                color: vars.$yellow;
+                            }
+    
+                            span
+                            {
+                                color: vars.$grey-5;
+                            }
+                        }
+                    }
+    
+                    img
+                    {
+                        @include fg.cut-img(4rem, 4rem);
+                        border-radius: 50%;
+                    }
+    
+                }
+            }
+        }
+
+        @keyframes chat-icon {
+            from
+            {
+                color: vars.$dark-blue;
+            }
+            to
+            {
+                color: vars.$aqua;
+            }
+        }
+
+        .options #chat-icon
+        {
+            animation: chat-icon linear infinite .5s alternate;
+        }
+
+    }
+}

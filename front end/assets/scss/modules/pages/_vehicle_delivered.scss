@@ -1,0 +1,78 @@
+@use '../../../../node_modules/frigattos' as fg;
+@use '../vars';
+
+.vehicle-delivered-page
+{
+    .owner-and-car-photos
+    {
+        margin-bottom: 2rem;
+
+        img
+        {
+            @include fg.cut-img(calc(10rem + 3vw), calc(10rem + 3vw));
+            border: solid .4rem vars.$aqua {
+                radius: 50%;
+            };
+
+            &.owner-photo
+            {
+                transform: translateX(1rem);
+            }
+
+            &.car-photo
+            {
+                transform: translateX(-1rem);
+            }
+        }
+    }
+
+    .info
+    {
+        @include fg.column-center;
+
+        h2
+        {
+            margin-bottom: 1rem;
+        }
+        
+        .info-blocks
+        {
+            border-radius: vars.$radius;
+            background: vars.$grey-2;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            padding: 1rem;
+            gap: .7rem;
+            margin-bottom: 2rem;
+            
+            .info-block
+            {
+                @include fg.column-center;
+                padding: .7rem 1rem;
+                border-radius: vars.$radius;
+                background: white;
+                color: vars.$dark-blue;
+                gap: .5rem;
+
+                span
+                {
+                    font: {
+                        size: 1.5rem;
+                        weight: bold;
+                    };
+                }
+            }
+        }
+    }
+
+    .confirm-btn
+    {
+        font: {
+            size: 1.5rem;
+            weight: bold;
+        }
+        padding: .7rem 1.5rem;
+        width: 80%;
+        border-radius: vars.$radius;
+    }
+}

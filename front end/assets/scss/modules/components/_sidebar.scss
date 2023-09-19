@@ -1,0 +1,84 @@
+@use '../../../../node_modules/frigattos' as fg;
+@use '../vars';
+
+#sidebar .offcanvas
+{
+    &-header
+    {
+        justify-content: initial;
+        gap: 1rem;
+        background: vars.$dark-blue;
+        padding-block: 1rem;
+        border-radius: 0 0 vars.$radius vars.$radius;
+
+        .perfil-photo
+        {
+            border-radius: 50%;
+            width: calc(5.5rem + 2vw);
+        }
+
+        .info
+        {
+            @include fg.column;
+
+            .name
+            {
+                color: white;
+                font: {
+                    size: 1.1rem;
+                    weight: bold;
+                }
+            }
+
+            .tenancy-qty
+            {
+                color: vars.$aqua;
+                font-weight: bold;
+            }
+        }
+    }
+
+    &-body
+    {
+        @include fg.column;
+        gap: 2rem;
+        padding-bottom: 2.5rem;
+
+        .options-list
+        {
+            @include fg.column;
+            background: vars.$grey-1;
+            border-radius: vars.$radius;
+
+            .option
+            {
+                display: flex;
+                align-items: center;
+                padding: 1.2rem 1.5rem;
+                gap: 1rem;
+                font-size: 1.25rem;
+                color: vars.$dark-blue;
+
+                i
+                {
+                    line-height: 0;
+                    font-size: 2rem;
+                }
+            }
+        }
+
+        .logout-btn
+        {
+            @include fg.center;
+            margin-top: auto;
+            color: white;
+            font-size: 1.2rem;
+            gap: .5rem;
+
+            i
+            {
+                font-size: 1.4rem;
+            }
+        }
+    }
+}

@@ -1,0 +1,35 @@
+@use 'sass:color';
+
+@mixin include-scrollbar($thumb-background, $track-background, $width: 1rem)
+{
+  &::-webkit-scrollbar
+  {
+    width: $width;
+  }
+
+  &::-webkit-scrollbar-thumb
+  {
+    background: $thumb-background;
+    border: solid .35rem $track-background {
+      radius: 100vw
+    };
+    transition: background .1s;
+
+    &:hover
+    {
+      @if color.lightness($thumb-background) < 20
+      {
+        background: color.adjust($thumb-background, $lightness: 10%);
+      }
+      @else
+      {
+        background: color.adjust($thumb-background, $lightness: -10%);
+      }
+    }
+  }
+
+  &::-webkit-scrollbar-track
+  {
+    background: $track-background;
+  }
+}

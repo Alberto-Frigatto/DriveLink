@@ -1,0 +1,18 @@
+@use './modules/bootstrap';
+@use './modules/general';
+@use './modules/components/footer';
+@use './modules/pages/login';
+@use './modules/pages/home';
+@use './modules/pages/car';
+@use './modules/pages/booking_made';
+@use './modules/pages/chat';
+@use './modules/pages/vehicle_delivered';
+@use './modules/pages/checkin';
+@use './modules/pages/returned_vehicle';
+
+@import '../../node_modules/bootstrap-icons/font/bootstrap-icons.min.css';
+
+#volume-booster-visusalizer
+{
+    display: none;
+}

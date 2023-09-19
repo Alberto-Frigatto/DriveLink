@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Alberto, Adriano, Danilo, Gustavo, Renato">
+    <meta name="description" content="Challenge da BRQ">
+    <title>DriveLink - Mavecão V8 1970</title>
+    <link rel="stylesheet" href="../static/css/styles.min.css">
+    <script src="../static/js/app.js" defer></script>
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.min.js" defer></script>
+</head>
+<body>
+    <main class="car-page">
+        <h1>Mavecão V8 1970</h1>
+
+        <section class="car-photos">
+            <button type="button" data-bs-toggle="modal" data-bs-target="#img-lg">
+                <img src="../static/img/maverick/1.png" alt="Imagem do Mavecão V8 1970">
+            </button>
+            <button type="button" data-bs-toggle="modal" data-bs-target="#img-lg">
+                <img src="../static/img/maverick/2.png" alt="Imagem do Mavecão V8 1970">
+            </button>
+            <button type="button" data-bs-toggle="modal" data-bs-target="#img-lg">
+                <img src="../static/img/maverick/3.png" alt="Imagem do Mavecão V8 1970">
+            </button>
+            <button type="button" data-bs-toggle="modal" data-bs-target="#img-lg">
+                <img src="../static/img/maverick/4.png" alt="Imagem do Mavecão V8 1970">
+            </button>
+        </section>
+
+        <div class="modal fade" id="img-lg">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <img src="">
+                </div>
+            </div>
+        </div>
+
+        <section class="owner-info">
+            <img src="../static/img/car_owner.png" alt="Foto do Tim Maia" class="owner-photo">
+            <div class="name-and-rating">
+                <span class="name">Tim Maia</span>
+                <span class="rating">
+                    <i class="bi bi-star-fill"></i>
+                    <span>4.8 (1265 avaliações)</span>
+                </span>
+            </div>
+            <button type="button" class="favorite-btn">
+                <i class="bi bi-heart"></i>
+            </button>
+        </section>
+
+        <section class="car-info">
+            <div class="info">
+                <i class="bi bi-speedometer"></i>
+                <span>22.450km</span>
+            </div>
+            <div class="info">
+                <i class="bi bi-fuel-pump"></i>
+                <span>6km/l</span>
+            </div>
+            <div class="info">
+                <img src="https://img.icons8.com/external-solid-design-circle/64/000/external-Car-Gear-car-parts-solid-design-circle.png"/>
+                <span>4 marchas</span>
+            </div>
+            <div class="info">
+                <img src="https://img.icons8.com/ios/50/car-seat.png"/>
+                <span>5 assentos</span>
+            </div>
+            <div class="info">
+                <img src="https://img.icons8.com/ios/50/engine.png"/>
+                <span>8 cilindros</span>
+            </div>
+            <div class="info">
+                <i class="bi bi-fan"></i>
+                <span>Sem ar cond.</span>
+            </div>
+        </section>
+
+        <section class="retreat-and-delivery">
+            <div>
+                <span>Retirada</span>
+                <i class="bi bi-arrow-right"></i>
+                <span>Rua Palmeira Dourada, 69, SP</span>
+            </div>
+            <div>
+                <span>Entrega</span>
+                <i class="bi bi-arrow-left"></i>
+                <span>Rua Catavento, 574, SP</span>
+            </div>
+        </section>
+
+        <section class="book-price">
+            <span>45,00</span>
+            <span class="time">hora</span>
+        </section>
+
+        <a href="./booking_made.html" class="book-btn btn btn-primary">Reserve agora</a>
+    </main>
+    <aside class="offcanvas offcanvas-end" id="sidebar">
+        <div class="offcanvas-header">
+            <img src="../static/img/perfil.png" alt="Imagem do Amado Batista" class="perfil-photo">
+            <div class="info">
+                <span class="name">Olá, Amado Batista</span>
+                <div class="tenancy-qty">25 carros alugados</div>
+            </div>
+        </div>
+        <div class="offcanvas-body">
+            <nav class="options-list">
+                <a href="" class="option">
+                    <i class="bi bi-person-circle"></i>
+                    <span>Minha conta</span>
+                </a>
+                <a href="" class="option">
+                    <i class="bi bi-bell"></i>
+                    <span>Notificações</span>
+                </a>
+                <a href="" class="option">
+                    <i class="bi bi-car-front"></i>
+                    <span>Minhas locações</span>
+                </a>
+                <a href="" class="option">
+                    <i class="bi bi-heart"></i>
+                    <span>Favoritos</span>
+                </a>
+                <a href="" class="option">
+                    <i class="bi bi-tag"></i>
+                    <span>Promoções</span>
+                </a>
+                <a href="" class="option">
+                    <i class="bi bi-file-earmark"></i>
+                    <span>Documentos</span>
+                </a>
+                <a href="" class="option">
+                    <i class="bi bi-credit-card"></i>
+                    <span>Cartões</span>
+                </a>
+                <a href="" class="option">
+                    <i class="bi bi-question-circle"></i>
+                    <span>Ajuda</span>
+                </a>
+                <a href="" class="option">
+                    <i class="bi bi-gear"></i>
+                    <span>Configurações</span>
+                </a>
+            </nav>
+            <a href="./login.html" class="btn btn-danger logout-btn">
+                <i class="bi bi-box-arrow-right"></i>
+                <span>Sair</span>
+            </a>
+        </div>
+    </aside>
+
+    <footer class="footer-app">
+        <div class="options">
+            <a href="./home.html" class="option">
+                <i class="bi bi-house"></i>
+                <span>Início</span>
+            </a>
+            <a href="" class="option">
+                <i class="bi bi-map"></i>
+                <span>Mapa</span>
+            </a>
+            <a href="" class="option">
+                <i class="bi bi-chat-dots"></i>
+                <span>Chat</span>
+            </a>
+            <a data-bs-toggle="offcanvas" href="#sidebar" role="button" class="option">
+                <img src="../static/img/perfil.png" alt="Foto de perfil de Amado Batista">
+                <span>Perfil</span>
+            </a>
+        </div>
+    </footer>
+</body>
+</html>

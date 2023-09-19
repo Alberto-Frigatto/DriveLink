@@ -1,0 +1,9 @@
+@mixin cut-img($width, $height, $fit: cover, $position: center)
+{
+  width: $width;
+  height: $height;
+  object: {
+    fit: $fit;
+    position: $position;
+  }
+}
