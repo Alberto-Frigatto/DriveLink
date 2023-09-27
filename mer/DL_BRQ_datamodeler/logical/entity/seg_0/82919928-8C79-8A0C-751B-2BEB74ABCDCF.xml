@@ -25,6 +25,16 @@
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="nm_plano" id="5675BB7D-838B-F6E0-D310-598057BC7E9D">
+<createdBy>alber</createdBy>
+<createdTime>2023-09-27 02:34:19 UTC</createdTime>
+<ownerDesignName>DL_BRQ_datamodeler</ownerDesignName>
+<engineerTo>
+<item key="748F7ACB-9546-7F14-B116-AA4C5626BC20" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 <Attribute name="ds_plano_seguro" id="BBB9F1B5-B9AE-7768-4C15-9A8DCAF1D995">
 <createdBy>alber</createdBy>
 <createdTime>2023-05-19 01:46:38 UTC</createdTime>
@@ -45,14 +55,27 @@
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="cd_seguradora" id="24912CF1-8044-DAF9-3907-362C2B07B6F7">
+<createdBy>alber</createdBy>
+<createdTime>2023-09-27 01:57:18 UTC</createdTime>
+<generatorID>F17B7FF0-A356-727B-3641-D6081367AB64</generatorID>
+<ownerDesignName>DL_BRQ_datamodeler</ownerDesignName>
+<engineerTo>
+<item key="748F7ACB-9546-7F14-B116-AA4C5626BC20" value="true"/>
+</engineerTo>
+<referedAttribute>4B9D004A-9DCA-A2C9-9D5A-AB396779F8D8</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="7BCA9578-B1FC-E6C6-3F35-07EA4AE054B3" name="T_DL_PLANO_SEGURO PK">
 <createdBy>alber</createdBy>
 <createdTime>2023-05-19 01:46:37 UTC</createdTime>
 <ownerDesignName>DL_BRQ_datamodeler</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="748F7ACB-9546-7F14-B116-AA4C5626BC20" value="true"/>
+<item key="748F7ACB-9546-7F14-B116-AA4C5626BC20" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

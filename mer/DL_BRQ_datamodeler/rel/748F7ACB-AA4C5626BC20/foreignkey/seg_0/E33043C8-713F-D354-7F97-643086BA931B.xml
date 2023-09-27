@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="E33043C8-713F-D354-7F97-643086BA931B" containerWithKeyObject="A117E538-5FEE-23C2-2B15-61CCBB165226" localFKIndex="FAE444BB-0764-AF26-0753-9416CD266400" name="T_DL_VISTORIA_T_DL_AVALIACAO_FK">
+<createdBy>alber</createdBy>
+<createdTime>2023-09-27 02:43:32 UTC</createdTime>
+<generatorID>50BA3EAA-5677-3120-B63A-2BEA64973C8E</generatorID>
+<ownerDesignName>DL_BRQ_datamodeler</ownerDesignName>
+<referredTableLongName>T_DL_AVALIACAO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>FAF86B3A-D0DE-D210-BBBA-5335D1B5F83D</referredTableID>
+<keyObject>4E47EACF-3CE2-73AD-C66E-330721FD9F4F</keyObject>
+<referredKeyID>4E47EACF-3CE2-73AD-C66E-330721FD9F4F</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>cd_avaliacao</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

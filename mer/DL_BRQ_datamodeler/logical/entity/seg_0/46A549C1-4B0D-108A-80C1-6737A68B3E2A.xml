@@ -1,0 +1,83 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="46A549C1-4B0D-108A-80C1-6737A68B3E2A" name="T_DL_BANDEIRA_CARTAO">
+<createdBy>alber</createdBy>
+<createdTime>2023-09-27 02:40:20 UTC</createdTime>
+<ownerDesignName>DL_BRQ_datamodeler</ownerDesignName>
+<engineerTo>
+<item key="748F7ACB-9546-7F14-B116-AA4C5626BC20" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_bandeira" id="BFB438A1-E243-6FEC-29BC-2C4098ACBB34">
+<createdBy>alber</createdBy>
+<createdTime>2023-09-27 02:40:55 UTC</createdTime>
+<ownerDesignName>DL_BRQ_datamodeler</ownerDesignName>
+<engineerTo>
+<item key="748F7ACB-9546-7F14-B116-AA4C5626BC20" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_bandeira" id="907EFDBD-A85E-0AA0-9DAD-353479E9D517">
+<createdBy>alber</createdBy>
+<createdTime>2023-09-27 02:41:03 UTC</createdTime>
+<ownerDesignName>DL_BRQ_datamodeler</ownerDesignName>
+<engineerTo>
+<item key="748F7ACB-9546-7F14-B116-AA4C5626BC20" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_cnpj" id="B1811A6D-AE18-2D9D-46F8-FBA764D7A45B">
+<createdBy>alber</createdBy>
+<createdTime>2023-09-27 02:41:13 UTC</createdTime>
+<ownerDesignName>DL_BRQ_datamodeler</ownerDesignName>
+<engineerTo>
+<item key="748F7ACB-9546-7F14-B116-AA4C5626BC20" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="vl_tamanho_num" id="C23D92AE-9A91-7C18-4D0D-DC77FC97AF5F">
+<createdBy>alber</createdBy>
+<createdTime>2023-09-27 02:41:20 UTC</createdTime>
+<ownerDesignName>DL_BRQ_datamodeler</ownerDesignName>
+<engineerTo>
+<item key="748F7ACB-9546-7F14-B116-AA4C5626BC20" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="vl_tamanho_cvv" id="E2C2C250-01DF-4971-2231-A2E5BE6EC669">
+<createdBy>alber</createdBy>
+<createdTime>2023-09-27 02:41:34 UTC</createdTime>
+<ownerDesignName>DL_BRQ_datamodeler</ownerDesignName>
+<engineerTo>
+<item key="748F7ACB-9546-7F14-B116-AA4C5626BC20" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="2AE96F50-E10D-3620-0C3E-BE20E57B8FA7" name="T_DL_BANDEIRA_CARTAO PK">
+<createdBy>alber</createdBy>
+<createdTime>2023-09-27 02:41:02 UTC</createdTime>
+<ownerDesignName>DL_BRQ_datamodeler</ownerDesignName>
+<engineerTo>
+<item key="748F7ACB-9546-7F14-B116-AA4C5626BC20" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>BFB438A1-E243-6FEC-29BC-2C4098ACBB34</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

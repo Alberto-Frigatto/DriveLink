@@ -49,18 +49,6 @@
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="cd_apolice" id="950C17F1-EF1B-7710-5F25-854665633ABA">
-<createdBy>VMWin10x64</createdBy>
-<createdTime>2023-05-23 02:12:24 UTC</createdTime>
-<generatorID>047557B3-A430-E461-6127-4E18E882D39B</generatorID>
-<ownerDesignName>DL_BRQ_datamodeler</ownerDesignName>
-<engineerTo>
-<item key="748F7ACB-9546-7F14-B116-AA4C5626BC20" value="true"/>
-</engineerTo>
-<referedAttribute>C3CB951A-AC34-E081-EC22-D2A96A04C456</referedAttribute>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="dt_locacao" id="78089FA4-16E6-4ECC-E4D3-D816F7B5A647">
 <createdBy>alber</createdBy>
 <createdTime>2023-05-13 23:12:51 UTC</createdTime>
@@ -81,7 +69,7 @@
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="dt_retirada_veiculo" id="A298CEFE-1E65-BA2E-0EED-8372E158698E">
+<Attribute name="dt_retirada" id="A298CEFE-1E65-BA2E-0EED-8372E158698E">
 <createdBy>Gustavo</createdBy>
 <createdTime>2023-05-18 02:37:32 UTC</createdTime>
 <ownerDesignName>DL_BRQ_datamodeler</ownerDesignName>
@@ -111,7 +99,7 @@
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ds_status" id="A830BA86-235C-6866-C62E-B8B984FFD00D">
+<Attribute name="vl_status" id="A830BA86-235C-6866-C62E-B8B984FFD00D">
 <createdBy>danil</createdBy>
 <createdTime>2023-05-19 01:06:02 UTC</createdTime>
 <ownerDesignName>DL_BRQ_datamodeler</ownerDesignName>
@@ -121,14 +109,27 @@
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="cd_cartao" id="5D4EA67D-D473-5C59-6521-F381BCBC3D9B">
+<createdBy>alber</createdBy>
+<createdTime>2023-09-27 02:06:31 UTC</createdTime>
+<generatorID>BE685A83-F8F5-9AC5-F739-B85E12918D5B</generatorID>
+<ownerDesignName>DL_BRQ_datamodeler</ownerDesignName>
+<engineerTo>
+<item key="748F7ACB-9546-7F14-B116-AA4C5626BC20" value="true"/>
+</engineerTo>
+<referedAttribute>3626C99E-3972-5793-93BD-A9EED31DDBA4</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="F6FEA099-706D-1842-4F99-5FC30F8756F2" name="T_LOCACAO PK">
 <createdBy>alber</createdBy>
 <createdTime>2023-05-13 23:12:58 UTC</createdTime>
 <ownerDesignName>DL_BRQ_datamodeler</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="748F7ACB-9546-7F14-B116-AA4C5626BC20" value="true"/>
+<item key="748F7ACB-9546-7F14-B116-AA4C5626BC20" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

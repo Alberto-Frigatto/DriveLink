@@ -37,26 +37,15 @@
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="status" id="FA427F65-FB65-7F59-7BE1-B3602BD2A7C6">
-<createdBy>danil</createdBy>
-<createdTime>2023-05-19 00:49:26 UTC</createdTime>
-<commentInRDBMS><![CDATA[Indica se aquele documento esta ativo ou não...]]></commentInRDBMS>
-<ownerDesignName>DL_BRQ_datamodeler</ownerDesignName>
-<engineerTo>
-<item key="748F7ACB-9546-7F14-B116-AA4C5626BC20" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="A9D301CB-CFE4-23B5-217F-56E6B9D6F206" name="T_DL_TipoDocumento PK">
 <createdBy>danil</createdBy>
 <createdTime>2023-05-19 00:49:17 UTC</createdTime>
 <ownerDesignName>DL_BRQ_datamodeler</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="748F7ACB-9546-7F14-B116-AA4C5626BC20" value="true"/>
+<item key="748F7ACB-9546-7F14-B116-AA4C5626BC20" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

@@ -35,16 +35,6 @@
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ds_categoria" id="1360A7C0-091B-2D8C-6EB4-7E563AF652EE">
-<createdBy>alber</createdBy>
-<createdTime>2023-05-16 01:35:23 UTC</createdTime>
-<ownerDesignName>DL_BRQ_datamodeler</ownerDesignName>
-<engineerTo>
-<item key="748F7ACB-9546-7F14-B116-AA4C5626BC20" value="true"/>
-</engineerTo>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="vl_peso_min" id="E48C199E-7523-C4FA-4065-D8FBA35C27B1">
 <createdBy>alber</createdBy>
 <createdTime>2023-05-16 01:35:28 UTC</createdTime>
@@ -71,8 +61,9 @@
 <createdBy>alber</createdBy>
 <createdTime>2023-05-16 01:35:16 UTC</createdTime>
 <ownerDesignName>DL_BRQ_datamodeler</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="748F7ACB-9546-7F14-B116-AA4C5626BC20" value="true"/>
+<item key="748F7ACB-9546-7F14-B116-AA4C5626BC20" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

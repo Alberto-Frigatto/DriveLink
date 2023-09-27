@@ -44,18 +44,6 @@
 <engineerTo>
 <item key="748F7ACB-9546-7F14-B116-AA4C5626BC20" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="ds_comentario" id="E52E3C48-EC57-A55D-504C-27805C387F1A">
-<createdBy>danil</createdBy>
-<createdTime>2023-05-19 01:08:08 UTC</createdTime>
-<ownerDesignName>DL_BRQ_datamodeler</ownerDesignName>
-<engineerTo>
-<item key="748F7ACB-9546-7F14-B116-AA4C5626BC20" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
@@ -65,8 +53,9 @@
 <createdBy>danil</createdBy>
 <createdTime>2023-05-19 01:07:43 UTC</createdTime>
 <ownerDesignName>DL_BRQ_datamodeler</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="748F7ACB-9546-7F14-B116-AA4C5626BC20" value="true"/>
+<item key="748F7ACB-9546-7F14-B116-AA4C5626BC20" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="11A8D2BD-D2A4-4F0A-4FDE-C7A799501AB0" name="T_DL_PLANO_SEGURO">
+<createdBy>alber</createdBy>
+<createdTime>2023-09-27 01:58:02 UTC</createdTime>
+<generatorID>82919928-8C79-8A0C-751B-2BEB74ABCDCF</generatorID>
+<ownerDesignName>DL_BRQ_datamodeler</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_plano_seguro" id="71883C3B-7C02-5971-5A64-C9E50F069610">
+<createdBy>alber</createdBy>
+<createdTime>2023-09-27 01:58:02 UTC</createdTime>
+<generatorID>ABE28060-5576-5FCD-8F9D-80598D8BE1D4</generatorID>
+<ownerDesignName>DL_BRQ_datamodeler</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_plano_seguro" id="BFB3A4FE-F01F-CE3D-E8CF-6BFD59501BAC">
+<createdBy>alber</createdBy>
+<createdTime>2023-09-27 01:58:02 UTC</createdTime>
+<generatorID>BBB9F1B5-B9AE-7768-4C15-9A8DCAF1D995</generatorID>
+<ownerDesignName>DL_BRQ_datamodeler</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vl_preco" id="F994132F-DB8E-954D-87F3-9C710A451EB0">
+<createdBy>alber</createdBy>
+<createdTime>2023-09-27 01:58:02 UTC</createdTime>
+<generatorID>5B7577C3-CB34-2B28-A67B-3C62BCA948C2</generatorID>
+<ownerDesignName>DL_BRQ_datamodeler</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_DL_SEGURADORA_cd_seguradora" id="28F7F44D-5547-F1CB-668D-586B18633460">
+<createdBy>alber</createdBy>
+<createdTime>2023-09-27 01:58:02 UTC</createdTime>
+<generatorID>24912CF1-8044-DAF9-3907-362C2B07B6F7</generatorID>
+<ownerDesignName>DL_BRQ_datamodeler</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B9368483-3016-B54F-5CEF-88CE24A28A8F" referredColumn="56584850-3706-EFE5-4DC6-C487269F097D"/>
+</associations>
+</Column>
+<Column name="nm_plano" id="A82DB76D-2B1A-CF74-CBE1-1FF357BAA871">
+<createdBy>alber</createdBy>
+<createdTime>2023-09-27 02:43:31 UTC</createdTime>
+<generatorID>5675BB7D-838B-F6E0-D310-598057BC7E9D</generatorID>
+<ownerDesignName>DL_BRQ_datamodeler</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="51B42571-7433-24AC-9F2D-1A37B89A4B95" name="T_DL_PLANO_SEGURO_PK">
+<createdBy>alber</createdBy>
+<createdTime>2023-09-27 01:58:02 UTC</createdTime>
+<generatorID>7BCA9578-B1FC-E6C6-3F35-07EA4AE054B3</generatorID>
+<ownerDesignName>DL_BRQ_datamodeler</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="71883C3B-7C02-5971-5A64-C9E50F069610"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E7493CAB-B66E-94D4-16F5-C76ABF520907" name="T_DL_PLANO_SEGURO_T_DL_SEGURADORA_FK">
+<createdBy>alber</createdBy>
+<createdTime>2023-09-27 01:58:02 UTC</createdTime>
+<generatorID>F17B7FF0-A356-727B-3641-D6081367AB64</generatorID>
+<ownerDesignName>DL_BRQ_datamodeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="28F7F44D-5547-F1CB-668D-586B18633460"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

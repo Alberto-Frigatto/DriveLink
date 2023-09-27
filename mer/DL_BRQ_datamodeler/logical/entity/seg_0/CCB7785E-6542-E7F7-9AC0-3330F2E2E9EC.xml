@@ -34,7 +34,36 @@
 <engineerTo>
 <item key="748F7ACB-9546-7F14-B116-AA4C5626BC20" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_cnpj" id="19F8E285-DC8F-95A5-72AB-FB4F3E86348D">
+<createdBy>alber</createdBy>
+<createdTime>2023-09-27 02:36:21 UTC</createdTime>
+<ownerDesignName>DL_BRQ_datamodeler</ownerDesignName>
+<engineerTo>
+<item key="748F7ACB-9546-7F14-B116-AA4C5626BC20" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_abertura" id="000F3552-412F-639F-032C-3C3495F1FB9D">
+<createdBy>alber</createdBy>
+<createdTime>2023-09-27 02:36:28 UTC</createdTime>
+<ownerDesignName>DL_BRQ_datamodeler</ownerDesignName>
+<engineerTo>
+<item key="748F7ACB-9546-7F14-B116-AA4C5626BC20" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_inscricao_estadual" id="ED5931D2-7B56-0A47-1E44-B3EBDCE46422">
+<createdBy>alber</createdBy>
+<createdTime>2023-09-27 02:37:10 UTC</createdTime>
+<ownerDesignName>DL_BRQ_datamodeler</ownerDesignName>
+<engineerTo>
+<item key="748F7ACB-9546-7F14-B116-AA4C5626BC20" value="true"/>
+</engineerTo>
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
@@ -44,8 +73,9 @@
 <createdBy>danil</createdBy>
 <createdTime>2023-05-19 00:22:31 UTC</createdTime>
 <ownerDesignName>DL_BRQ_datamodeler</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="748F7ACB-9546-7F14-B116-AA4C5626BC20" value="true"/>
+<item key="748F7ACB-9546-7F14-B116-AA4C5626BC20" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

@@ -96,14 +96,41 @@
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="cd_cliente" id="5D5CDA54-2DAD-D990-1FF0-3DB131EE2B8E">
+<createdBy>alber</createdBy>
+<createdTime>2023-09-27 02:09:25 UTC</createdTime>
+<generatorID>25F9AA4F-D135-9D8F-65B1-4D35D1882CB3</generatorID>
+<ownerDesignName>DL_BRQ_datamodeler</ownerDesignName>
+<engineerTo>
+<item key="748F7ACB-9546-7F14-B116-AA4C5626BC20" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>01E6C7FE-8FDF-AF16-1997-61774C6D5039</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_proprietario" id="3C92A281-29D1-43B9-DDD4-15B535572558">
+<createdBy>alber</createdBy>
+<createdTime>2023-09-27 02:10:55 UTC</createdTime>
+<generatorID>F50C6E52-23FB-F394-2083-0EF1777CF03B</generatorID>
+<ownerDesignName>DL_BRQ_datamodeler</ownerDesignName>
+<engineerTo>
+<item key="748F7ACB-9546-7F14-B116-AA4C5626BC20" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>5240346F-C132-7670-D069-D5D57219F017</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="71B84C6F-7240-C52F-B291-EC858D568E74" name="T_ENDERECO PK">
 <createdBy>alber</createdBy>
 <createdTime>2023-05-16 01:08:15 UTC</createdTime>
 <ownerDesignName>DL_BRQ_datamodeler</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="748F7ACB-9546-7F14-B116-AA4C5626BC20" value="true"/>
+<item key="748F7ACB-9546-7F14-B116-AA4C5626BC20" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

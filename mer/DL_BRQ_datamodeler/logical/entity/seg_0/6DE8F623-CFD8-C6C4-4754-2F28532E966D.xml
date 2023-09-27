@@ -45,37 +45,6 @@
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="dt_nasc_abertura" id="ACF9DF3C-68EC-FDE8-3E2A-89FBAF06C3C5">
-<createdBy>Gustavo</createdBy>
-<createdTime>2023-05-18 00:16:30 UTC</createdTime>
-<ownerDesignName>DL_BRQ_datamodeler</ownerDesignName>
-<engineerTo>
-<item key="748F7ACB-9546-7F14-B116-AA4C5626BC20" value="true"/>
-</engineerTo>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="nr_cpf_cnpj" id="2B1A3A97-A3CF-10FB-194C-B76D8A4DAC0A">
-<createdBy>Gustavo</createdBy>
-<createdTime>2023-05-18 00:17:21 UTC</createdTime>
-<ownerDesignName>DL_BRQ_datamodeler</ownerDesignName>
-<engineerTo>
-<item key="748F7ACB-9546-7F14-B116-AA4C5626BC20" value="true"/>
-</engineerTo>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="nr_rg" id="28D10C76-69A7-FFED-0435-9F061123C010">
-<createdBy>Gustavo</createdBy>
-<createdTime>2023-05-18 00:17:33 UTC</createdTime>
-<ownerDesignName>DL_BRQ_datamodeler</ownerDesignName>
-<engineerTo>
-<item key="748F7ACB-9546-7F14-B116-AA4C5626BC20" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="nr_cnh" id="15F8F43E-785A-68BE-21C1-CC0DAFEECDF1">
 <createdBy>Gustavo</createdBy>
 <createdTime>2023-05-18 00:17:55 UTC</createdTime>
@@ -87,25 +56,43 @@
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="nr_inscricao_estadual" id="611DD847-A139-0FA8-DF09-D3CBBA81020B">
-<createdBy>Gustavo</createdBy>
-<createdTime>2023-05-18 00:18:17 UTC</createdTime>
+<Attribute name="vl_ativo" id="3F2CF8CD-3974-9848-F032-1E57B1A7AF21">
+<createdBy>alber</createdBy>
+<createdTime>2023-09-27 02:22:17 UTC</createdTime>
 <ownerDesignName>DL_BRQ_datamodeler</ownerDesignName>
 <engineerTo>
 <item key="748F7ACB-9546-7F14-B116-AA4C5626BC20" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ds_setor" id="AB57B075-76A3-A223-8D48-65A976E5CF69">
-<createdBy>Gustavo</createdBy>
-<createdTime>2023-05-18 00:19:32 UTC</createdTime>
+<Attribute name="ds_senha" id="63921B47-1044-5F1D-C323-F8DD6AC58DB9">
+<createdBy>alber</createdBy>
+<createdTime>2023-09-27 02:22:24 UTC</createdTime>
 <ownerDesignName>DL_BRQ_datamodeler</ownerDesignName>
 <engineerTo>
 <item key="748F7ACB-9546-7F14-B116-AA4C5626BC20" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_foto" id="A826C15C-09C4-6BE8-9181-8718700F15AC">
+<createdBy>alber</createdBy>
+<createdTime>2023-09-27 02:22:31 UTC</createdTime>
+<ownerDesignName>DL_BRQ_datamodeler</ownerDesignName>
+<engineerTo>
+<item key="748F7ACB-9546-7F14-B116-AA4C5626BC20" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_cadastro" id="074166E0-8A6E-717B-C321-98C6BCA8AEAD">
+<createdBy>alber</createdBy>
+<createdTime>2023-09-27 02:22:40 UTC</createdTime>
+<ownerDesignName>DL_BRQ_datamodeler</ownerDesignName>
+<engineerTo>
+<item key="748F7ACB-9546-7F14-B116-AA4C5626BC20" value="true"/>
+</engineerTo>
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
@@ -115,8 +102,9 @@
 <createdBy>alber</createdBy>
 <createdTime>2023-05-14 16:53:33 UTC</createdTime>
 <ownerDesignName>DL_BRQ_datamodeler</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="748F7ACB-9546-7F14-B116-AA4C5626BC20" value="true"/>
+<item key="748F7ACB-9546-7F14-B116-AA4C5626BC20" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

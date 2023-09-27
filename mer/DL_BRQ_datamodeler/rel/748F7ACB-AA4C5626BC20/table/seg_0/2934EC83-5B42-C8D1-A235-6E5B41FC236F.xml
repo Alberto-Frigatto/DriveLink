@@ -1,0 +1,69 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2934EC83-5B42-C8D1-A235-6E5B41FC236F" name="T_DL_MODELO">
+<createdBy>alber</createdBy>
+<createdTime>2023-09-27 01:58:02 UTC</createdTime>
+<generatorID>1B207CBC-E84F-C4C8-D86F-462AF0D64867</generatorID>
+<ownerDesignName>DL_BRQ_datamodeler</ownerDesignName>
+<abbreviation>MODELO</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_modelo" id="E2F766EF-77F4-D489-7BC9-3B334F131CD0">
+<createdBy>alber</createdBy>
+<createdTime>2023-09-27 01:58:02 UTC</createdTime>
+<generatorID>F4538A2A-8B50-761D-97BA-56B0A0529467</generatorID>
+<ownerDesignName>DL_BRQ_datamodeler</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_DL_FABRICANTE_cd_fabricante" id="7388473C-C39E-91B5-0C26-B7A901C828C3">
+<createdBy>alber</createdBy>
+<createdTime>2023-09-27 01:58:02 UTC</createdTime>
+<generatorID>D27A6775-EB08-1617-FA4A-A08AD7977018</generatorID>
+<ownerDesignName>DL_BRQ_datamodeler</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4452AE3D-EB12-F597-C2B5-115C09364A67" referredColumn="90C3B257-E5E9-2A4A-656B-0257BAEE68DD"/>
+</associations>
+</Column>
+<Column name="nm_modelo" id="C1653550-7669-F632-7670-49C728A393FA">
+<createdBy>alber</createdBy>
+<createdTime>2023-09-27 01:58:02 UTC</createdTime>
+<generatorID>1A02886D-14F0-947C-1F74-8EB1A8C7602D</generatorID>
+<ownerDesignName>DL_BRQ_datamodeler</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DAE4AEF6-C5D5-C41D-D6A2-E1B24F5B3FD1" name="T_DL_MODELO_PK">
+<createdBy>alber</createdBy>
+<createdTime>2023-09-27 01:58:02 UTC</createdTime>
+<generatorID>67AC5A8E-D156-1149-F6E1-0C4CE80A09B5</generatorID>
+<ownerDesignName>DL_BRQ_datamodeler</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E2F766EF-77F4-D489-7BC9-3B334F131CD0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D4DF18C3-7EC5-0060-DB76-A92493EAEDDC" name="T_DL_MODELO_T_DL_FABRICANTE_FK">
+<createdBy>alber</createdBy>
+<createdTime>2023-09-27 01:58:02 UTC</createdTime>
+<generatorID>11A07DB0-80C3-F77E-5E2E-E35B44B60328</generatorID>
+<ownerDesignName>DL_BRQ_datamodeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7388473C-C39E-91B5-0C26-B7A901C828C3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

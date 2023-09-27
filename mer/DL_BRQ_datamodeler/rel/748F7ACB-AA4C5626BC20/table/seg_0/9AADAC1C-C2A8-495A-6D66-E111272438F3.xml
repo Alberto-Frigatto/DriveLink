@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9AADAC1C-C2A8-495A-6D66-E111272438F3" name="T_DL_PROPRIETARIO_VEICULO_PJ">
+<createdBy>alber</createdBy>
+<createdTime>2023-09-27 02:43:31 UTC</createdTime>
+<generatorID>42D2D4EF-7A80-F4A4-6BB3-AEFCBE5DD53F</generatorID>
+<ownerDesignName>DL_BRQ_datamodeler</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="nr_cnpj" id="721AE662-FE61-474A-7F9C-829F73B58B8C">
+<createdBy>alber</createdBy>
+<createdTime>2023-09-27 02:43:31 UTC</createdTime>
+<generatorID>F1122EDD-ACCC-8199-F02E-5AC0300A7EFF</generatorID>
+<ownerDesignName>DL_BRQ_datamodeler</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_abertura" id="D55C9E05-3F75-2967-5FE4-3754C8847BC9">
+<createdBy>alber</createdBy>
+<createdTime>2023-09-27 02:43:31 UTC</createdTime>
+<generatorID>BA196095-3085-58C4-8AD2-101D8E8BE0B4</generatorID>
+<ownerDesignName>DL_BRQ_datamodeler</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_setor" id="16C64694-D53E-2808-E50F-6AECBA2D9C52">
+<createdBy>alber</createdBy>
+<createdTime>2023-09-27 02:43:31 UTC</createdTime>
+<generatorID>C2E904D9-8BA5-0520-39ED-DE291270CFAA</generatorID>
+<ownerDesignName>DL_BRQ_datamodeler</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nr_inscricao_estadual" id="106B7E3B-200E-BD67-DDD4-89D326244A97">
+<createdBy>alber</createdBy>
+<createdTime>2023-09-27 02:43:31 UTC</createdTime>
+<generatorID>1A967610-6B11-E7C6-A7AB-EBEB293D2C9F</generatorID>
+<ownerDesignName>DL_BRQ_datamodeler</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_DL_PROPRIETARIO_VEICULO_PJ_ID" id="FCA3CE0C-6AFC-8FAF-B6D7-17BBAEFFED52">
+<createdBy>alber</createdBy>
+<createdTime>2023-09-27 02:43:32 UTC</createdTime>
+<ownerDesignName>DL_BRQ_datamodeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="EC875905-ECFA-244F-7AE8-FB95E062CA81" name="T_DL_PROPRIETARIO_VEICULO_PJ_PK">
+<createdBy>alber</createdBy>
+<createdTime>2023-09-27 02:43:32 UTC</createdTime>
+<ownerDesignName>DL_BRQ_datamodeler</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="FCA3CE0C-6AFC-8FAF-B6D7-17BBAEFFED52"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

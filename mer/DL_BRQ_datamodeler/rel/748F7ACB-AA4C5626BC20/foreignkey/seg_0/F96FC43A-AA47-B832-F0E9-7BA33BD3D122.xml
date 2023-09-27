@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="F96FC43A-AA47-B832-F0E9-7BA33BD3D122" containerWithKeyObject="CE8DF41D-3A3A-A125-D966-FA8DE146F156" localFKIndex="22A84C19-82AD-3C9F-3BA9-FC930C454F78" name="T_DL_LOCACAO_T_DL_PLANO_SEGURO_FK">
+<createdBy>alber</createdBy>
+<createdTime>2023-09-27 01:58:02 UTC</createdTime>
+<generatorID>F4ACAEBB-A00D-D0EB-E3EA-D0E52F78E295</generatorID>
+<ownerDesignName>DL_BRQ_datamodeler</ownerDesignName>
+<referredTableLongName>T_DL_PLANO_SEGURO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>11A8D2BD-D2A4-4F0A-4FDE-C7A799501AB0</referredTableID>
+<keyObject>51B42571-7433-24AC-9F2D-1A37B89A4B95</keyObject>
+<referredKeyID>51B42571-7433-24AC-9F2D-1A37B89A4B95</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>cd_plano_seguro</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

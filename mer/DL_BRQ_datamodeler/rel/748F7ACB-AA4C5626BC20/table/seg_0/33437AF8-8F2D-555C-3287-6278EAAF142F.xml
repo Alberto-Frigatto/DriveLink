@@ -1,0 +1,55 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="33437AF8-8F2D-555C-3287-6278EAAF142F" name="T_DL_PROPRIETARIO_VEICULO_PF">
+<createdBy>alber</createdBy>
+<createdTime>2023-09-27 02:43:31 UTC</createdTime>
+<generatorID>399AB44D-30B9-A3DC-19F5-6A13A0BDE8B6</generatorID>
+<ownerDesignName>DL_BRQ_datamodeler</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="nr_cpf" id="8140CC69-68C5-087E-381C-C4E7CC55313C">
+<createdBy>alber</createdBy>
+<createdTime>2023-09-27 02:43:31 UTC</createdTime>
+<generatorID>894897E0-F3A5-3C3C-9670-F7CC5D97F6F9</generatorID>
+<ownerDesignName>DL_BRQ_datamodeler</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_nasc" id="D939B520-422F-56CF-A840-705D1FFC5085">
+<createdBy>alber</createdBy>
+<createdTime>2023-09-27 02:43:31 UTC</createdTime>
+<generatorID>DD3F0693-F6CD-DFE1-6E40-75B32004A421</generatorID>
+<ownerDesignName>DL_BRQ_datamodeler</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_DL_PROPRIETARIO_VEICULO_PF_ID" id="02E17F39-6982-2F8F-FED1-3B296424B511">
+<createdBy>alber</createdBy>
+<createdTime>2023-09-27 02:43:32 UTC</createdTime>
+<ownerDesignName>DL_BRQ_datamodeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D98D30B9-B027-687A-6ABB-BFBE930EEBB9" name="T_DL_PROPRIETARIO_VEICULO_PF_PK">
+<createdBy>alber</createdBy>
+<createdTime>2023-09-27 02:43:32 UTC</createdTime>
+<ownerDesignName>DL_BRQ_datamodeler</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="02E17F39-6982-2F8F-FED1-3B296424B511"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

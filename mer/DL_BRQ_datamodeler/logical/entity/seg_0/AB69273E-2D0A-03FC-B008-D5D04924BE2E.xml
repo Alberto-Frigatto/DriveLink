@@ -61,18 +61,6 @@
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="cd_modelo" id="8755EAEE-5F42-9613-2A3B-C170BA9EBB69">
-<createdBy>alber</createdBy>
-<createdTime>2023-05-19 01:49:03 UTC</createdTime>
-<generatorID>9C1DD901-B1F8-EA9C-80F5-E390924DFAF5</generatorID>
-<ownerDesignName>DL_BRQ_datamodeler</ownerDesignName>
-<engineerTo>
-<item key="748F7ACB-9546-7F14-B116-AA4C5626BC20" value="true"/>
-</engineerTo>
-<referedAttribute>F4538A2A-8B50-761D-97BA-56B0A0529467</referedAttribute>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="nm_modelo" id="1AB64B49-61BD-C253-C614-AB6696017AB7">
 <createdBy>alber</createdBy>
 <createdTime>2023-05-13 22:40:42 UTC</createdTime>
@@ -83,17 +71,7 @@
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="nm_marca" id="C5C3A644-45C4-941D-D68D-4A9C6590E47B">
-<createdBy>alber</createdBy>
-<createdTime>2023-05-13 22:40:53 UTC</createdTime>
-<ownerDesignName>DL_BRQ_datamodeler</ownerDesignName>
-<engineerTo>
-<item key="748F7ACB-9546-7F14-B116-AA4C5626BC20" value="true"/>
-</engineerTo>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="nr_ano" id="9883A8FB-04B0-3B3E-0964-BFE60DE6EC7C">
+<Attribute name="nr_ano_modelo" id="9883A8FB-04B0-3B3E-0964-BFE60DE6EC7C">
 <createdBy>alber</createdBy>
 <createdTime>2023-05-13 22:41:33 UTC</createdTime>
 <ownerDesignName>DL_BRQ_datamodeler</ownerDesignName>
@@ -113,7 +91,7 @@
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ds_carro" id="E98C9ABB-EFED-F120-740B-11FF70A5B73B">
+<Attribute name="ds_veiculo" id="E98C9ABB-EFED-F120-740B-11FF70A5B73B">
 <createdBy>alber</createdBy>
 <createdTime>2023-05-13 22:42:43 UTC</createdTime>
 <ownerDesignName>DL_BRQ_datamodeler</ownerDesignName>
@@ -123,16 +101,170 @@
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-</attributes>
-<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="B3F3B964-6436-DCDA-C1DA-AC465B5CBF0D" name="T_CARRO PK">
+<Attribute name="nr_chassi" id="017D480D-C930-B030-F414-720272276139">
 <createdBy>alber</createdBy>
-<createdTime>2023-05-13 22:40:19 UTC</createdTime>
+<createdTime>2023-09-27 02:29:57 UTC</createdTime>
 <ownerDesignName>DL_BRQ_datamodeler</ownerDesignName>
 <engineerTo>
 <item key="748F7ACB-9546-7F14-B116-AA4C5626BC20" value="true"/>
 </engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_ano_fabricacao" id="6539B1C2-4872-A713-38EA-DDDA5B49362C">
+<createdBy>alber</createdBy>
+<createdTime>2023-09-27 02:30:05 UTC</createdTime>
+<ownerDesignName>DL_BRQ_datamodeler</ownerDesignName>
+<engineerTo>
+<item key="748F7ACB-9546-7F14-B116-AA4C5626BC20" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_renavam_1" id="CD577082-2174-B7CF-B347-24F8764EA860">
+<createdBy>alber</createdBy>
+<createdTime>2023-09-27 02:30:15 UTC</createdTime>
+<ownerDesignName>DL_BRQ_datamodeler</ownerDesignName>
+<engineerTo>
+<item key="748F7ACB-9546-7F14-B116-AA4C5626BC20" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="vl_preco" id="290BEA97-6F97-B286-3B34-1B67C30E961E">
+<createdBy>alber</createdBy>
+<createdTime>2023-09-27 02:30:39 UTC</createdTime>
+<ownerDesignName>DL_BRQ_datamodeler</ownerDesignName>
+<engineerTo>
+<item key="748F7ACB-9546-7F14-B116-AA4C5626BC20" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="vl_km_rodado" id="6B040B52-34E8-2D15-4CA0-47AB1042B756">
+<createdBy>alber</createdBy>
+<createdTime>2023-09-27 02:30:47 UTC</createdTime>
+<ownerDesignName>DL_BRQ_datamodeler</ownerDesignName>
+<engineerTo>
+<item key="748F7ACB-9546-7F14-B116-AA4C5626BC20" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_tipo_preco" id="4255473A-5085-05A6-C5B4-58EA573894C5">
+<createdBy>alber</createdBy>
+<createdTime>2023-09-27 02:31:01 UTC</createdTime>
+<ownerDesignName>DL_BRQ_datamodeler</ownerDesignName>
+<engineerTo>
+<item key="748F7ACB-9546-7F14-B116-AA4C5626BC20" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="vl_ar_condicionado" id="B0902800-2B43-BDB7-9054-5E2B31087FCB">
+<createdBy>alber</createdBy>
+<createdTime>2023-09-27 02:31:30 UTC</createdTime>
+<ownerDesignName>DL_BRQ_datamodeler</ownerDesignName>
+<engineerTo>
+<item key="748F7ACB-9546-7F14-B116-AA4C5626BC20" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="vl_cambio_automatico" id="607E3B44-7DF3-45CF-BED2-7E312396EB6D">
+<createdBy>alber</createdBy>
+<createdTime>2023-09-27 02:31:55 UTC</createdTime>
+<ownerDesignName>DL_BRQ_datamodeler</ownerDesignName>
+<engineerTo>
+<item key="748F7ACB-9546-7F14-B116-AA4C5626BC20" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_marchas" id="C4F2A834-E4F7-C046-A993-E9A4947FA544">
+<createdBy>alber</createdBy>
+<createdTime>2023-09-27 02:32:04 UTC</createdTime>
+<ownerDesignName>DL_BRQ_datamodeler</ownerDesignName>
+<engineerTo>
+<item key="748F7ACB-9546-7F14-B116-AA4C5626BC20" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_cilindros" id="211F1C50-A3E0-079F-3F36-7D3D66C8BF87">
+<createdBy>alber</createdBy>
+<createdTime>2023-09-27 02:32:14 UTC</createdTime>
+<ownerDesignName>DL_BRQ_datamodeler</ownerDesignName>
+<engineerTo>
+<item key="748F7ACB-9546-7F14-B116-AA4C5626BC20" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="vl_consumo" id="D822BF4C-C6F3-6161-063B-FB73B36C9CBD">
+<createdBy>alber</createdBy>
+<createdTime>2023-09-27 02:32:28 UTC</createdTime>
+<ownerDesignName>DL_BRQ_datamodeler</ownerDesignName>
+<engineerTo>
+<item key="748F7ACB-9546-7F14-B116-AA4C5626BC20" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_assentos" id="0A4354C7-2657-E1F6-6378-093592027AC8">
+<createdBy>alber</createdBy>
+<createdTime>2023-09-27 02:32:38 UTC</createdTime>
+<ownerDesignName>DL_BRQ_datamodeler</ownerDesignName>
+<engineerTo>
+<item key="748F7ACB-9546-7F14-B116-AA4C5626BC20" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_fotos" id="E7034BC4-6F51-D4B9-9E06-D1E981B59C07">
+<createdBy>alber</createdBy>
+<createdTime>2023-09-27 02:32:52 UTC</createdTime>
+<ownerDesignName>DL_BRQ_datamodeler</ownerDesignName>
+<engineerTo>
+<item key="748F7ACB-9546-7F14-B116-AA4C5626BC20" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="vl_alugado" id="2D34A733-4768-96F1-4DC0-E5CBA1A59387">
+<createdBy>alber</createdBy>
+<createdTime>2023-09-27 02:33:01 UTC</createdTime>
+<ownerDesignName>DL_BRQ_datamodeler</ownerDesignName>
+<engineerTo>
+<item key="748F7ACB-9546-7F14-B116-AA4C5626BC20" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_fabricante" id="52855444-7095-341A-37B5-4664433286ED">
+<createdBy>alber</createdBy>
+<createdTime>2023-09-27 02:35:53 UTC</createdTime>
+<generatorID>8B524105-48E2-ABEF-5FCB-F8F316FD630D</generatorID>
+<ownerDesignName>DL_BRQ_datamodeler</ownerDesignName>
+<engineerTo>
+<item key="748F7ACB-9546-7F14-B116-AA4C5626BC20" value="true"/>
+</engineerTo>
+<referedAttribute>FCC16E9C-CF64-3A09-8A17-074A85CD58F0</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B3F3B964-6436-DCDA-C1DA-AC465B5CBF0D" name="T_VEICULO PK">
+<createdBy>alber</createdBy>
+<createdTime>2023-05-13 22:40:19 UTC</createdTime>
+<ownerDesignName>DL_BRQ_datamodeler</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="748F7ACB-9546-7F14-B116-AA4C5626BC20" value="false"/>
+</engineerTo>
 <pk>true</pk>
+<newElementsIDs>C27E40D6-A995-4D27-0D9F-57A0B826A17C</newElementsIDs>
 <usedAttributes>
 <attributeRef>C27E40D6-A995-4D27-0D9F-57A0B826A17C</attributeRef>
 </usedAttributes>

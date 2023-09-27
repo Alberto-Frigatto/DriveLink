@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0E2FBAE6-D0F6-CCE8-BCA5-7289682C309F" name="T_DL_VEICULO_SALVO">
+<createdBy>alber</createdBy>
+<createdTime>2023-09-27 01:58:02 UTC</createdTime>
+<generatorID>6B0D5A1E-6BA4-2DFF-A70F-ADCD4536798B</generatorID>
+<ownerDesignName>DL_BRQ_datamodeler</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="T_DL_VEICULO_nr_placa" id="AC540CAE-65F7-DDCF-5F2D-BBF037CADF9F">
+<createdBy>alber</createdBy>
+<createdTime>2023-09-27 01:58:02 UTC</createdTime>
+<generatorID>0F171627-DF73-8259-54F9-DD47E5EC36AB</generatorID>
+<ownerDesignName>DL_BRQ_datamodeler</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6D376AED-2203-4297-DF6B-57BCAE41FE95" referredColumn="F2C4B73C-2CA6-ABAD-D471-B5F097C4D65E"/>
+</associations>
+</Column>
+<Column name="T_DL_CLIENTE_cd_cliente" id="8E7E6A4C-7FD5-DCD4-DEC3-75F4A36E0E79">
+<createdBy>alber</createdBy>
+<createdTime>2023-09-27 01:58:02 UTC</createdTime>
+<generatorID>40B4A14A-34F1-4F1D-F000-87FFFA4EBED6</generatorID>
+<ownerDesignName>DL_BRQ_datamodeler</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="06154440-8D04-6F5B-2345-5496A565EB24" referredColumn="8C74D348-7313-9207-DD2E-DE464034EB92"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="ADE166F4-2F0B-04BA-70DC-E59DE4E050E7" name="T_DL_VEICULO_SALVO_PK">
+<createdBy>alber</createdBy>
+<createdTime>2023-09-27 01:58:02 UTC</createdTime>
+<generatorID>F86A39D8-F4CB-0A91-F8C7-05A2D87E7115</generatorID>
+<ownerDesignName>DL_BRQ_datamodeler</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AC540CAE-65F7-DDCF-5F2D-BBF037CADF9F"/>
+<colUsage columnID="8E7E6A4C-7FD5-DCD4-DEC3-75F4A36E0E79"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="325637D4-5338-D4A9-0472-FDA92830DA42" name="T_DL_VEICULO_SALVO_T_DL_VEICULO_FK">
+<createdBy>alber</createdBy>
+<createdTime>2023-09-27 01:58:02 UTC</createdTime>
+<generatorID>C2568886-92B9-04D8-18A1-A657EE9D6966</generatorID>
+<ownerDesignName>DL_BRQ_datamodeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AC540CAE-65F7-DDCF-5F2D-BBF037CADF9F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D2674583-138C-3013-4447-E6CE3494EC3B" name="T_DL_VEICULO_SALVO_T_DL_CLIENTE_FK">
+<createdBy>alber</createdBy>
+<createdTime>2023-09-27 01:58:02 UTC</createdTime>
+<generatorID>4700084D-3791-79AE-DA49-3E5E2584A356</generatorID>
+<ownerDesignName>DL_BRQ_datamodeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8E7E6A4C-7FD5-DCD4-DEC3-75F4A36E0E79"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

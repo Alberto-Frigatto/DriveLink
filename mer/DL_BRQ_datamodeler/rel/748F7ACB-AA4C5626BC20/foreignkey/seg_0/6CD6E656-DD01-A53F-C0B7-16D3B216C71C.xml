@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="6CD6E656-DD01-A53F-C0B7-16D3B216C71C" containerWithKeyObject="98553F0B-AF6B-2657-0809-8B574C99D9AB" localFKIndex="666F032B-6DE6-CD63-6FC9-408D801A8690" name="T_DL_PROPRIETARIO_VEICULO_T_DL_PROPRIETARIO_VEICULO_PF_FK">
+<createdBy>alber</createdBy>
+<createdTime>2023-09-27 02:43:32 UTC</createdTime>
+<generatorID>558CE0EB-F589-80DD-D528-0406F7030AB6</generatorID>
+<ownerDesignName>DL_BRQ_datamodeler</ownerDesignName>
+<referredTableLongName>T_DL_PROPRIETARIO_VEICULO_PF</referredTableLongName>
+<arc>A56B0888-34FA-8506-3D5B-7E8F49FB6880</arc>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>33437AF8-8F2D-555C-3287-6278EAAF142F</referredTableID>
+<keyObject>D98D30B9-B027-687A-6ABB-BFBE930EEBB9</keyObject>
+<referredKeyID>D98D30B9-B027-687A-6ABB-BFBE930EEBB9</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>T_DL_PROPRIETARIO_VEICULO_PF_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

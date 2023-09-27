@@ -1,0 +1,218 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CE8DF41D-3A3A-A125-D966-FA8DE146F156" name="T_DL_LOCACAO">
+<createdBy>alber</createdBy>
+<createdTime>2023-09-27 01:58:02 UTC</createdTime>
+<generatorID>350C8BB2-3B1A-3B5B-88CA-B754D36A513D</generatorID>
+<ownerDesignName>DL_BRQ_datamodeler</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_locacao" id="A563F1C6-E49C-BE99-7B8B-B32970FC6BB3">
+<createdBy>alber</createdBy>
+<createdTime>2023-09-27 01:58:02 UTC</createdTime>
+<generatorID>95531445-3436-C956-80C8-9788F70D3BF5</generatorID>
+<ownerDesignName>DL_BRQ_datamodeler</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_DL_CLIENTE_cd_cliente" id="6371DF6C-4EF8-FE8D-FE81-F2671EC5FD71">
+<createdBy>alber</createdBy>
+<createdTime>2023-09-27 01:58:02 UTC</createdTime>
+<generatorID>1A7C924D-BF4A-2577-830B-4217EE20D65A</generatorID>
+<ownerDesignName>DL_BRQ_datamodeler</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C7D41001-6ACD-5C73-142C-854B7B3C9EC1" referredColumn="8C74D348-7313-9207-DD2E-DE464034EB92"/>
+</associations>
+</Column>
+<Column name="T_DL_VEICULO_nr_placa" id="E3F89437-F388-C53F-DBFC-EF39B3E4A38F">
+<createdBy>alber</createdBy>
+<createdTime>2023-09-27 01:58:02 UTC</createdTime>
+<generatorID>AE8C855C-6750-A4AF-665C-36F7DEDED19B</generatorID>
+<ownerDesignName>DL_BRQ_datamodeler</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DCC0D837-D768-8D82-9ABE-056E5C4326D5" referredColumn="F2C4B73C-2CA6-ABAD-D471-B5F097C4D65E"/>
+</associations>
+</Column>
+<Column name="T_DL_APOLICE_cd_apolice" id="1310164A-2893-0471-C0B5-1CE4937EBE6E">
+<createdBy>alber</createdBy>
+<createdTime>2023-09-27 01:58:02 UTC</createdTime>
+<generatorID>950C17F1-EF1B-7710-5F25-854665633ABA</generatorID>
+<ownerDesignName>DL_BRQ_datamodeler</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_locacao" id="78228827-DA55-D976-4D56-0C4EA00B5576">
+<createdBy>alber</createdBy>
+<createdTime>2023-09-27 01:58:02 UTC</createdTime>
+<generatorID>78089FA4-16E6-4ECC-E4D3-D816F7B5A647</generatorID>
+<ownerDesignName>DL_BRQ_datamodeler</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_devolucao" id="1E9E0B4A-E93D-C755-4F58-8600FD908E2C">
+<createdBy>alber</createdBy>
+<createdTime>2023-09-27 01:58:02 UTC</createdTime>
+<generatorID>331703FE-FA54-9CEC-5BFC-A5867C910B01</generatorID>
+<ownerDesignName>DL_BRQ_datamodeler</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_retirada" id="F9EED008-4233-6FAA-E14E-CC7FC66BE849">
+<createdBy>alber</createdBy>
+<createdTime>2023-09-27 01:58:02 UTC</createdTime>
+<generatorID>A298CEFE-1E65-BA2E-0EED-8372E158698E</generatorID>
+<ownerDesignName>DL_BRQ_datamodeler</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vl_preco" id="F12F829D-D220-B6F3-F16F-6CE3AD7AFEAC">
+<createdBy>alber</createdBy>
+<createdTime>2023-09-27 01:58:02 UTC</createdTime>
+<generatorID>730B96E3-0226-7E0C-5E3D-060E191FB4BE</generatorID>
+<ownerDesignName>DL_BRQ_datamodeler</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vl_tipo_pagamento" id="AE25E446-F135-6BDF-4BF0-0A5AB548A675">
+<createdBy>alber</createdBy>
+<createdTime>2023-09-27 01:58:02 UTC</createdTime>
+<generatorID>F7EC38B1-6036-4D4E-FC8F-41884FCD0CAD</generatorID>
+<ownerDesignName>DL_BRQ_datamodeler</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vl_status" id="6E2741D8-F271-58AA-F918-3231A9AC7D4D">
+<createdBy>alber</createdBy>
+<createdTime>2023-09-27 01:58:02 UTC</createdTime>
+<generatorID>A830BA86-235C-6866-C62E-B8B984FFD00D</generatorID>
+<ownerDesignName>DL_BRQ_datamodeler</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_DL_PLANO_SEGURO_cd_plano_seguro" id="6F88A9BA-C31E-6313-660F-2175C6958A1C">
+<createdBy>alber</createdBy>
+<createdTime>2023-09-27 01:58:02 UTC</createdTime>
+<generatorID>050C2D3E-B30F-E184-9F35-EDAD0912AD93</generatorID>
+<ownerDesignName>DL_BRQ_datamodeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F96FC43A-AA47-B832-F0E9-7BA33BD3D122" referredColumn="71883C3B-7C02-5971-5A64-C9E50F069610"/>
+</associations>
+</Column>
+<Column name="T_DL_CARTAO_BANCARIO_cd_cartao" id="CFF6BF12-F771-8EBD-228F-A87C2212F7BC">
+<createdBy>alber</createdBy>
+<createdTime>2023-09-27 02:08:31 UTC</createdTime>
+<generatorID>5D4EA67D-D473-5C59-6521-F381BCBC3D9B</generatorID>
+<ownerDesignName>DL_BRQ_datamodeler</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5896E9B2-634F-C068-A31E-70FDE2468D4A" referredColumn="9E178C96-5357-C6D0-3861-1E56C7BF0F42"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E7AE76A6-41EC-ED44-B81C-BD1032E8A519" name="T_DL_LOCACAO_PK">
+<createdBy>alber</createdBy>
+<createdTime>2023-09-27 01:58:02 UTC</createdTime>
+<generatorID>F6FEA099-706D-1842-4F99-5FC30F8756F2</generatorID>
+<ownerDesignName>DL_BRQ_datamodeler</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A563F1C6-E49C-BE99-7B8B-B32970FC6BB3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="16768A3E-1F42-763C-DDDC-DB57B8A78436" name="T_DL_LOCACAO__IDX">
+<createdBy>alber</createdBy>
+<createdTime>2023-09-27 01:58:02 UTC</createdTime>
+<ownerDesignName>DL_BRQ_datamodeler</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>F4ACAEBB-A00D-D0EB-E3EA-D0E52F78E295</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="6F88A9BA-C31E-6313-660F-2175C6958A1C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D2D5E7F6-E672-E1CB-CB19-B96BAE7EFB09" name="T_DL_LOCACAO__IDXv1">
+<createdBy>alber</createdBy>
+<createdTime>2023-09-27 01:58:02 UTC</createdTime>
+<ownerDesignName>DL_BRQ_datamodeler</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>047557B3-A430-E461-6127-4E18E882D39B</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="1310164A-2893-0471-C0B5-1CE4937EBE6E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3C27F445-1521-D309-04C8-834EB60C4388" name="T_DL_LOCACAO_T_DL_CLIENTE_FK">
+<createdBy>alber</createdBy>
+<createdTime>2023-09-27 01:58:02 UTC</createdTime>
+<generatorID>2E9EAFF1-63E4-1E2E-6D7F-DAA1CB09C042</generatorID>
+<ownerDesignName>DL_BRQ_datamodeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6371DF6C-4EF8-FE8D-FE81-F2671EC5FD71"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1C6C626B-5E4B-B313-2C93-4CB96A52D3A0" name="T_DL_LOCACAO_T_DL_VEICULO_FK">
+<createdBy>alber</createdBy>
+<createdTime>2023-09-27 01:58:02 UTC</createdTime>
+<generatorID>C20A9273-2E31-BEF3-7614-853DFF889685</generatorID>
+<ownerDesignName>DL_BRQ_datamodeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E3F89437-F388-C53F-DBFC-EF39B3E4A38F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="22A84C19-82AD-3C9F-3BA9-FC930C454F78" name="T_DL_LOCACAO_T_DL_PLANO_SEGURO_FK">
+<createdBy>alber</createdBy>
+<createdTime>2023-09-27 01:58:02 UTC</createdTime>
+<generatorID>F4ACAEBB-A00D-D0EB-E3EA-D0E52F78E295</generatorID>
+<ownerDesignName>DL_BRQ_datamodeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6F88A9BA-C31E-6313-660F-2175C6958A1C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C9F79144-7F66-7778-6B7F-BE5D4288AE51" name="T_DL_LOCACAO_T_DL_CARTAO_BANCARIO_FK">
+<createdBy>alber</createdBy>
+<createdTime>2023-09-27 02:08:31 UTC</createdTime>
+<generatorID>BE685A83-F8F5-9AC5-F739-B85E12918D5B</generatorID>
+<ownerDesignName>DL_BRQ_datamodeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CFF6BF12-F771-8EBD-228F-A87C2212F7BC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
