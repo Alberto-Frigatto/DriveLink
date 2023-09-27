@@ -5,19 +5,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Alberto, Adriano, Danilo, Gustavo, Renato">
     <meta name="description" content="Challenge da BRQ">
-    <title>DriveLink - Check in</title>
+    <title>DriveLink - Check out</title>
     <link rel="stylesheet" href="../static/css/styles.min.css">
     <script src="../static/js/app.js" defer></script>
     <script src="../node_modules/bootstrap/dist/js/bootstrap.min.js" defer></script>
 </head>
 <body>
     <main class="full-width checkin-page">
-        <h1 class="title-with-bg">Check in</h1>
+        <h1 class="title-with-bg">Check out</h1>
 
         <div class="form-container">
             <h2>Preencha os campos</h2>
 
             <form action="" class="checkin-form">
+                <h3 class="form-title">Carregue as fotos da vistoria</h3>
+
+                <div class="file-input-container">
+                    <div class="photo-validation-information">
+                        <span>A foto deve estar em formato</span>
+                        <ul>
+                            <li>.jpg</li>
+                            <li>.jpeg</li>
+                            <li>.png</li>
+                        </ul>
+                        <span>E não deve ter mais de 6MB</span>
+                    </div>
+                    <input type="file" name="fotos" id="fotos" multiple class="form-control">
+                    <span id="photo-feedback"></span>
+                </div>
+
                 <h3 class="form-title">O veículo...</h3>
                 <div class="check-item">
                     <div class="primary-check form-check">
@@ -52,6 +68,12 @@
                     <div class="primary-check">
                         <input type="checkbox" class="form-check-input" name="tanque" id="tanque">
                         <label class="form-check-label" for="tanque">Está com tanque cheio?</label>
+                    </div>
+                </div>
+                <div class="check-item">
+                    <div class="primary-check">
+                        <input type="checkbox" class="form-check-input" name="limpo" id="limpo">
+                        <label class="form-check-label" for="limpo">Está Limpo?</label>
                     </div>
                 </div>
             </form>

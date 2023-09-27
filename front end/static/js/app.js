@@ -84,7 +84,7 @@ const vehicleDeliveredPage = document.querySelector('.vehicle-delivered-page');
 if (vehicleDeliveredPage)
 {
     setTimeout(() => {
-        window.location.assign('./checkin.html')
+        window.location.assign('./checkout.html')
     }, 5000);
 }
 
@@ -100,3 +100,45 @@ if (primaryCheck)
             secondaryCheck.style.display = 'none'
     })
 }
+
+const photoInput = document.getElementById('fotos')
+const photoFeedback = document.getElementById('photo-feedback')
+
+photoInput.addEventListener('input', e => {
+    if (e.target.files.length)
+    {
+        const checkFile = file => {
+            if (
+                (file.type !== 'image/jpeg' &&
+                file.type !== 'image/png')
+                ||
+                file.size > 500000
+            )
+                return false;
+
+            return true;
+        }
+
+        let allPhotosAreValid = true;
+
+        for (file of e.target.files)
+            if (!checkFile(file))
+            {
+                allPhotosAreValid = false
+                break
+            }
+
+        if (allPhotosAreValid)
+        {
+            photoFeedback.innerText = 'Fotos carregadas com sucesso'
+            photoFeedback.classList.remove('text-danger')
+            photoFeedback.classList.add('text-success')
+        }
+        else
+        {
+            photoFeedback.innerText = 'Fotos com erros'
+            photoFeedback.classList.remove('text-success')
+            photoFeedback.classList.add('text-danger')
+        }
+    }
+});

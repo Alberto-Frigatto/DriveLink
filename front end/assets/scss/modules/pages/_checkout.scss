@@ -28,6 +28,27 @@
             .form-title
             {
                 text-align: center;
+                margin-block: 1rem
+            }
+
+            .file-input-container
+            {
+                @include fg.column;
+                gap: 1rem;
+                background: white;
+                padding: .7rem 1rem;
+                border-radius: vars.$radius;
+
+                .photo-validation-information
+                {
+                    @include fg.column;
+                    gap: .5rem;
+
+                    ul li
+                    {
+                        font-weight: bold;
+                    }
+                }
             }
 
             .check-item
