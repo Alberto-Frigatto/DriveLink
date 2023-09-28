@@ -4,7 +4,7 @@
 <createdTime>2023-05-19 01:03:53 UTC</createdTime>
 <ownerDesignName>DL_BRQ_datamodeler</ownerDesignName>
 <engineerTo>
-<item key="748F7ACB-9546-7F14-B116-AA4C5626BC20" value="true"/>
+<item key="67DCC40D-2929-0986-43D6-AFD771CACBD5" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -20,31 +20,24 @@
 <createdTime>2023-05-19 01:04:06 UTC</createdTime>
 <ownerDesignName>DL_BRQ_datamodeler</ownerDesignName>
 <engineerTo>
-<item key="748F7ACB-9546-7F14-B116-AA4C5626BC20" value="true"/>
+<item key="67DCC40D-2929-0986-43D6-AFD771CACBD5" value="true"/>
 </engineerTo>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="dt_vistoria" id="D003CD48-B492-03B8-FEAF-61C2F794DD2D">
 <createdBy>danil</createdBy>
 <createdTime>2023-05-19 01:04:25 UTC</createdTime>
 <ownerDesignName>DL_BRQ_datamodeler</ownerDesignName>
 <engineerTo>
-<item key="748F7ACB-9546-7F14-B116-AA4C5626BC20" value="true"/>
+<item key="67DCC40D-2929-0986-43D6-AFD771CACBD5" value="true"/>
 </engineerTo>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="cd_avaliacao" id="0ADA3FB8-8470-7268-1C86-14C233A48E03">
-<createdBy>alber</createdBy>
-<createdTime>2023-09-27 02:23:43 UTC</createdTime>
-<generatorID>50BA3EAA-5677-3120-B63A-2BEA64973C8E</generatorID>
-<ownerDesignName>DL_BRQ_datamodeler</ownerDesignName>
-<engineerTo>
-<item key="748F7ACB-9546-7F14-B116-AA4C5626BC20" value="true"/>
-</engineerTo>
-<referedAttribute>56BE8FD2-9418-1B49-DDF0-FC8245F30706</referedAttribute>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>91229484-D19C-D458-8647-333C7FFE7B60</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="ds_avaria" id="6D5A8CB2-E994-9FF8-1283-22C74AB8D107">
@@ -52,9 +45,11 @@
 <createdTime>2023-09-27 02:24:37 UTC</createdTime>
 <ownerDesignName>DL_BRQ_datamodeler</ownerDesignName>
 <engineerTo>
-<item key="748F7ACB-9546-7F14-B116-AA4C5626BC20" value="true"/>
+<item key="67DCC40D-2929-0986-43D6-AFD771CACBD5" value="true"/>
 </engineerTo>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>47823B89-BECE-2D4A-B641-EE3BE6149078</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="vl_tanque_cheio" id="5BD2A9A4-38D8-5038-312D-219980494CE8">
@@ -62,29 +57,53 @@
 <createdTime>2023-09-27 02:24:45 UTC</createdTime>
 <ownerDesignName>DL_BRQ_datamodeler</ownerDesignName>
 <engineerTo>
-<item key="748F7ACB-9546-7F14-B116-AA4C5626BC20" value="true"/>
+<item key="67DCC40D-2929-0986-43D6-AFD771CACBD5" value="true"/>
 </engineerTo>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="vl_limpo" id="FC1F86AC-EA06-2C85-8347-F374A0BEE64E">
 <createdBy>alber</createdBy>
 <createdTime>2023-09-27 02:25:02 UTC</createdTime>
 <ownerDesignName>DL_BRQ_datamodeler</ownerDesignName>
 <engineerTo>
-<item key="748F7ACB-9546-7F14-B116-AA4C5626BC20" value="true"/>
+<item key="67DCC40D-2929-0986-43D6-AFD771CACBD5" value="true"/>
 </engineerTo>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="ds_tipo_vistoria" id="C7837871-6B22-B2CB-7F90-1F1D41E11185">
 <createdBy>alber</createdBy>
 <createdTime>2023-09-27 02:25:23 UTC</createdTime>
 <ownerDesignName>DL_BRQ_datamodeler</ownerDesignName>
 <engineerTo>
-<item key="748F7ACB-9546-7F14-B116-AA4C5626BC20" value="true"/>
+<item key="67DCC40D-2929-0986-43D6-AFD771CACBD5" value="true"/>
 </engineerTo>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<ownDataTypeParameters>,1,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_locacao" id="A12FBF5F-4296-F1C7-C4E8-FD51F44DC6EF">
+<createdBy>alber</createdBy>
+<createdTime>2023-09-28 01:24:21 UTC</createdTime>
+<generatorID>743A253F-3254-1795-D753-B2D6B20F165C</generatorID>
+<ownerDesignName>DL_BRQ_datamodeler</ownerDesignName>
+<engineerTo>
+<item key="67DCC40D-2929-0986-43D6-AFD771CACBD5" value="true"/>
+</engineerTo>
+<referedAttribute>95531445-3436-C956-80C8-9788F70D3BF5</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
@@ -93,9 +112,8 @@
 <createdBy>danil</createdBy>
 <createdTime>2023-05-19 01:04:13 UTC</createdTime>
 <ownerDesignName>DL_BRQ_datamodeler</ownerDesignName>
-<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="748F7ACB-9546-7F14-B116-AA4C5626BC20" value="false"/>
+<item key="67DCC40D-2929-0986-43D6-AFD771CACBD5" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

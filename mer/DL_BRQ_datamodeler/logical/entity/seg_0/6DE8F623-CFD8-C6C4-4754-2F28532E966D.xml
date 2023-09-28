@@ -4,7 +4,7 @@
 <createdTime>2023-05-14 16:53:18 UTC</createdTime>
 <ownerDesignName>DL_BRQ_datamodeler</ownerDesignName>
 <engineerTo>
-<item key="748F7ACB-9546-7F14-B116-AA4C5626BC20" value="true"/>
+<item key="67DCC40D-2929-0986-43D6-AFD771CACBD5" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -20,80 +20,102 @@
 <createdTime>2023-05-14 16:53:29 UTC</createdTime>
 <ownerDesignName>DL_BRQ_datamodeler</ownerDesignName>
 <engineerTo>
-<item key="748F7ACB-9546-7F14-B116-AA4C5626BC20" value="true"/>
+<item key="67DCC40D-2929-0986-43D6-AFD771CACBD5" value="true"/>
 </engineerTo>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="nm_cliente" id="0529B48D-02F8-7DF9-2186-EAE79C1E8D4A">
 <createdBy>alber</createdBy>
 <createdTime>2023-05-14 16:53:34 UTC</createdTime>
 <ownerDesignName>DL_BRQ_datamodeler</ownerDesignName>
 <engineerTo>
-<item key="748F7ACB-9546-7F14-B116-AA4C5626BC20" value="true"/>
+<item key="67DCC40D-2929-0986-43D6-AFD771CACBD5" value="true"/>
 </engineerTo>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>70 CHAR</dataTypeSize>
+<ownDataTypeParameters>70 CHAR,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="ds_email" id="F8725C09-7535-0914-0814-D9079525E334">
 <createdBy>alber</createdBy>
 <createdTime>2023-05-14 16:53:41 UTC</createdTime>
 <ownerDesignName>DL_BRQ_datamodeler</ownerDesignName>
 <engineerTo>
-<item key="748F7ACB-9546-7F14-B116-AA4C5626BC20" value="true"/>
+<item key="67DCC40D-2929-0986-43D6-AFD771CACBD5" value="true"/>
 </engineerTo>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 CHAR</dataTypeSize>
+<ownDataTypeParameters>255 CHAR,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="nr_cnh" id="15F8F43E-785A-68BE-21C1-CC0DAFEECDF1">
 <createdBy>Gustavo</createdBy>
 <createdTime>2023-05-18 00:17:55 UTC</createdTime>
 <ownerDesignName>DL_BRQ_datamodeler</ownerDesignName>
 <engineerTo>
-<item key="748F7ACB-9546-7F14-B116-AA4C5626BC20" value="true"/>
+<item key="67DCC40D-2929-0986-43D6-AFD771CACBD5" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11 CHAR</dataTypeSize>
+<ownDataTypeParameters>11 CHAR,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="vl_ativo" id="3F2CF8CD-3974-9848-F032-1E57B1A7AF21">
 <createdBy>alber</createdBy>
 <createdTime>2023-09-27 02:22:17 UTC</createdTime>
 <ownerDesignName>DL_BRQ_datamodeler</ownerDesignName>
 <engineerTo>
-<item key="748F7ACB-9546-7F14-B116-AA4C5626BC20" value="true"/>
+<item key="67DCC40D-2929-0986-43D6-AFD771CACBD5" value="true"/>
 </engineerTo>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="ds_senha" id="63921B47-1044-5F1D-C323-F8DD6AC58DB9">
 <createdBy>alber</createdBy>
 <createdTime>2023-09-27 02:22:24 UTC</createdTime>
 <ownerDesignName>DL_BRQ_datamodeler</ownerDesignName>
 <engineerTo>
-<item key="748F7ACB-9546-7F14-B116-AA4C5626BC20" value="true"/>
+<item key="67DCC40D-2929-0986-43D6-AFD771CACBD5" value="true"/>
 </engineerTo>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 CHAR</dataTypeSize>
+<ownDataTypeParameters>255 CHAR,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="ds_foto" id="A826C15C-09C4-6BE8-9181-8718700F15AC">
 <createdBy>alber</createdBy>
 <createdTime>2023-09-27 02:22:31 UTC</createdTime>
 <ownerDesignName>DL_BRQ_datamodeler</ownerDesignName>
 <engineerTo>
-<item key="748F7ACB-9546-7F14-B116-AA4C5626BC20" value="true"/>
+<item key="67DCC40D-2929-0986-43D6-AFD771CACBD5" value="true"/>
 </engineerTo>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 CHAR</dataTypeSize>
+<ownDataTypeParameters>255 CHAR,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="dt_cadastro" id="074166E0-8A6E-717B-C321-98C6BCA8AEAD">
 <createdBy>alber</createdBy>
 <createdTime>2023-09-27 02:22:40 UTC</createdTime>
 <ownerDesignName>DL_BRQ_datamodeler</ownerDesignName>
 <engineerTo>
-<item key="748F7ACB-9546-7F14-B116-AA4C5626BC20" value="true"/>
+<item key="67DCC40D-2929-0986-43D6-AFD771CACBD5" value="true"/>
 </engineerTo>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>91229484-D19C-D458-8647-333C7FFE7B60</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
@@ -102,9 +124,8 @@
 <createdBy>alber</createdBy>
 <createdTime>2023-05-14 16:53:33 UTC</createdTime>
 <ownerDesignName>DL_BRQ_datamodeler</ownerDesignName>
-<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="748F7ACB-9546-7F14-B116-AA4C5626BC20" value="false"/>
+<item key="67DCC40D-2929-0986-43D6-AFD771CACBD5" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

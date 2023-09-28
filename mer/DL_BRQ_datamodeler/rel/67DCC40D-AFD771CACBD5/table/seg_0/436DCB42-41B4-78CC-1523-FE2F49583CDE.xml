@@ -1,0 +1,123 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="436DCB42-41B4-78CC-1523-FE2F49583CDE" name="T_DL_VISTORIA">
+<createdBy>alber</createdBy>
+<createdTime>2023-09-27 23:46:22 UTC</createdTime>
+<generatorID>200CB800-A0B4-9E2D-CAA5-C2911C3CE99E</generatorID>
+<ownerDesignName>DL_BRQ_datamodeler</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_vistoria" id="9EA4E562-82EA-4EB8-F8F0-BB9B3F24C0E4">
+<createdBy>alber</createdBy>
+<createdTime>2023-09-27 23:46:22 UTC</createdTime>
+<generatorID>EC42F0A3-E177-2A9B-6B3A-429B06E192CC</generatorID>
+<ownerDesignName>DL_BRQ_datamodeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_vistoria" id="07789F01-8435-E151-945A-2F6BE7AE3300">
+<createdBy>alber</createdBy>
+<createdTime>2023-09-27 23:46:22 UTC</createdTime>
+<generatorID>D003CD48-B492-03B8-FEAF-61C2F794DD2D</generatorID>
+<ownerDesignName>DL_BRQ_datamodeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>91229484-D19C-D458-8647-333C7FFE7B60</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_avaria" id="78C83897-B2BD-800F-FD36-ED7A78E5D89A">
+<createdBy>alber</createdBy>
+<createdTime>2023-09-27 23:46:22 UTC</createdTime>
+<generatorID>6D5A8CB2-E994-9FF8-1283-22C74AB8D107</generatorID>
+<ownerDesignName>DL_BRQ_datamodeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>47823B89-BECE-2D4A-B641-EE3BE6149078</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vl_tanque_cheio" id="E95C6557-BCB7-8E94-8942-F3A53E9F620F">
+<createdBy>alber</createdBy>
+<createdTime>2023-09-27 23:46:22 UTC</createdTime>
+<generatorID>5BD2A9A4-38D8-5038-312D-219980494CE8</generatorID>
+<ownerDesignName>DL_BRQ_datamodeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vl_limpo" id="864CEBEC-D3DF-7259-36F8-937520BB6E93">
+<createdBy>alber</createdBy>
+<createdTime>2023-09-27 23:46:22 UTC</createdTime>
+<generatorID>FC1F86AC-EA06-2C85-8347-F374A0BEE64E</generatorID>
+<ownerDesignName>DL_BRQ_datamodeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_tipo_vistoria" id="BEF823BC-5026-C329-EA7A-A1E4DCFD4C78">
+<createdBy>alber</createdBy>
+<createdTime>2023-09-27 23:46:22 UTC</createdTime>
+<generatorID>C7837871-6B22-B2CB-7F90-1F1D41E11185</generatorID>
+<ownerDesignName>DL_BRQ_datamodeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<ownDataTypeParameters>,1,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_DL_LOCACAO_cd_locacao" id="7D4306F0-7340-1C68-5DA0-9A5451942126">
+<createdBy>alber</createdBy>
+<createdTime>2023-09-28 01:45:16 UTC</createdTime>
+<generatorID>A12FBF5F-4296-F1C7-C4E8-FD51F44DC6EF</generatorID>
+<ownerDesignName>DL_BRQ_datamodeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EABB281B-C13A-102A-D749-EB138BAB7387" referredColumn="F42A2C1C-D176-36C2-7695-0057667CFCD3"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BDE99FB1-54AB-88F7-5073-490DD9158627" name="T_DL_VISTORIA_PK">
+<createdBy>alber</createdBy>
+<createdTime>2023-09-27 23:46:22 UTC</createdTime>
+<generatorID>7356052D-7E47-E4F7-45FB-E6895C22795B</generatorID>
+<ownerDesignName>DL_BRQ_datamodeler</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9EA4E562-82EA-4EB8-F8F0-BB9B3F24C0E4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DCE509DD-D573-691A-CC9E-C4E2A8CCF7FA" name="T_DL_VISTORIA_T_DL_LOCACAO_FK">
+<createdBy>alber</createdBy>
+<createdTime>2023-09-28 01:45:16 UTC</createdTime>
+<generatorID>743A253F-3254-1795-D753-B2D6B20F165C</generatorID>
+<ownerDesignName>DL_BRQ_datamodeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7D4306F0-7340-1C68-5DA0-9A5451942126"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

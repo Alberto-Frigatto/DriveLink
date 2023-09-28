@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FF59FC97-5279-B3CF-2D22-486399C36B12" name="T_DL_BANDEIRA_CARTAO">
+<createdBy>alber</createdBy>
+<createdTime>2023-09-27 23:46:22 UTC</createdTime>
+<generatorID>46A549C1-4B0D-108A-80C1-6737A68B3E2A</generatorID>
+<ownerDesignName>DL_BRQ_datamodeler</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_bandeira" id="F38B0D85-2E6A-2C93-2D84-CA86274D05DF">
+<createdBy>alber</createdBy>
+<createdTime>2023-09-27 23:46:22 UTC</createdTime>
+<generatorID>BFB438A1-E243-6FEC-29BC-2C4098ACBB34</generatorID>
+<ownerDesignName>DL_BRQ_datamodeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_bandeira" id="2577E775-FBD1-06F8-24CB-781232A5C73B">
+<createdBy>alber</createdBy>
+<createdTime>2023-09-27 23:46:22 UTC</createdTime>
+<generatorID>907EFDBD-A85E-0AA0-9DAD-353479E9D517</generatorID>
+<ownerDesignName>DL_BRQ_datamodeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nr_cnpj" id="3B54D03C-A1A6-FD46-4023-501FB93643EC">
+<createdBy>alber</createdBy>
+<createdTime>2023-09-27 23:46:22 UTC</createdTime>
+<generatorID>B1811A6D-AE18-2D9D-46F8-FBA764D7A45B</generatorID>
+<ownerDesignName>DL_BRQ_datamodeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>14 CHAR</dataTypeSize>
+<ownDataTypeParameters>14 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vl_tamanho_num" id="313EC2FB-A48D-516A-B091-381A57127478">
+<createdBy>alber</createdBy>
+<createdTime>2023-09-27 23:46:22 UTC</createdTime>
+<generatorID>C23D92AE-9A91-7C18-4D0D-DC77FC97AF5F</generatorID>
+<ownerDesignName>DL_BRQ_datamodeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vl_tamanho_cvv" id="3EAEE94F-F18F-6001-9680-F824021E8E52">
+<createdBy>alber</createdBy>
+<createdTime>2023-09-27 23:46:22 UTC</createdTime>
+<generatorID>E2C2C250-01DF-4971-2231-A2E5BE6EC669</generatorID>
+<ownerDesignName>DL_BRQ_datamodeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<ownDataTypeParameters>,1,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="90919327-4D48-30E5-57D7-71D9E76D8122" name="T_DL_BANDEIRA_CARTAO_PK">
+<createdBy>alber</createdBy>
+<createdTime>2023-09-27 23:46:22 UTC</createdTime>
+<generatorID>2AE96F50-E10D-3620-0C3E-BE20E57B8FA7</generatorID>
+<ownerDesignName>DL_BRQ_datamodeler</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F38B0D85-2E6A-2C93-2D84-CA86274D05DF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

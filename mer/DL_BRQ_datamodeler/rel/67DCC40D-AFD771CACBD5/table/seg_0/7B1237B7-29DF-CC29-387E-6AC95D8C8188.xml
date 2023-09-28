@@ -1,0 +1,132 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7B1237B7-29DF-CC29-387E-6AC95D8C8188" name="T_DL_TELEFONE_RELACIONAMENTO">
+<createdBy>alber</createdBy>
+<createdTime>2023-09-27 23:46:22 UTC</createdTime>
+<generatorID>19DEC7D7-877B-4E9F-EDE7-27A2EFFB23A1</generatorID>
+<ownerDesignName>DL_BRQ_datamodeler</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_telefone_relacionamento" id="2013FD9C-8D50-C426-21B5-65167A61E327">
+<createdBy>alber</createdBy>
+<createdTime>2023-09-27 23:46:22 UTC</createdTime>
+<generatorID>18EAF708-1CBF-BA37-D89E-EC00D3E8F345</generatorID>
+<ownerDesignName>DL_BRQ_datamodeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_DL_CLIENTE_cd_cliente" id="857FDDFF-F503-FBE5-7884-1B1A0A13321A">
+<createdBy>alber</createdBy>
+<createdTime>2023-09-27 23:46:22 UTC</createdTime>
+<generatorID>D2459520-02CC-C498-7E6A-1402B230A32F</generatorID>
+<ownerDesignName>DL_BRQ_datamodeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D6573E1E-9922-FE38-2F73-3C411F502EE6" referredColumn="15AFDBD4-94DC-4EEF-4B28-EF1319286F82"/>
+</associations>
+</Column>
+<Column name="T_DL_PROPRIETARIO_VEICULO_cd_proprietario" id="ED36093D-1DA1-7E9F-8E64-2FAEB6AE0210">
+<createdBy>alber</createdBy>
+<createdTime>2023-09-27 23:46:22 UTC</createdTime>
+<generatorID>A3C339D0-153B-3369-517B-5F1FF98E8AF9</generatorID>
+<ownerDesignName>DL_BRQ_datamodeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="32C0E47F-2385-CEDF-3752-AABD009D1810" referredColumn="A84E2069-A3FC-B2D4-C04E-DC98AA5EE432"/>
+</associations>
+</Column>
+<Column name="T_DL_TELEFONE_cd_telefone" id="4ACC4D16-15A8-9A4C-0F4C-2FB98D61C9C4">
+<createdBy>alber</createdBy>
+<createdTime>2023-09-27 23:46:22 UTC</createdTime>
+<generatorID>FA4EA7DF-710E-1932-EDF8-6C07344B7D87</generatorID>
+<ownerDesignName>DL_BRQ_datamodeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="910FC9E5-5560-F07F-9748-FAF103E1CEB7" referredColumn="7C55501F-ACCE-8118-EAA3-B2454EB8B8EE"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E45D6D0B-DA8A-8765-C808-17AD28D4CC7B" name="T_DL_TELEFONE_RELACIONAMENTO_PK">
+<createdBy>alber</createdBy>
+<createdTime>2023-09-27 23:46:22 UTC</createdTime>
+<generatorID>9A200D1F-A22F-FF23-595E-68D7048BAD5E</generatorID>
+<ownerDesignName>DL_BRQ_datamodeler</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2013FD9C-8D50-C426-21B5-65167A61E327"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="10E8928B-EB68-1989-7BD2-E9E6553B13AA" name="T_DL_TELEFONE_RELACIONAMENTO__IDX">
+<createdBy>alber</createdBy>
+<createdTime>2023-09-27 23:46:23 UTC</createdTime>
+<ownerDesignName>DL_BRQ_datamodeler</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>FC8DB838-6766-CF98-BA16-4D3CEDFB3781</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="4ACC4D16-15A8-9A4C-0F4C-2FB98D61C9C4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="027F3D8F-267C-88C2-5636-C5043A6ECC34" name="T_DL_TELEFONE_RELACIONAMENTO_T_DL_CLIENTE_FK">
+<createdBy>alber</createdBy>
+<createdTime>2023-09-27 23:46:22 UTC</createdTime>
+<generatorID>D3CBBA1F-6447-908D-1AFA-37D5022FF299</generatorID>
+<ownerDesignName>DL_BRQ_datamodeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="857FDDFF-F503-FBE5-7884-1B1A0A13321A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="37FF3A16-4D9E-1822-C254-D3CA67185E87" name="T_DL_TELEFONE_RELACIONAMENTO_T_DL_PROPRIETARIO_VEICULO_FK">
+<createdBy>alber</createdBy>
+<createdTime>2023-09-27 23:46:22 UTC</createdTime>
+<generatorID>FED280C9-7A1F-DC20-9102-EFFE0680134F</generatorID>
+<ownerDesignName>DL_BRQ_datamodeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ED36093D-1DA1-7E9F-8E64-2FAEB6AE0210"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="69699B73-3B2E-7801-5937-FE6B9C4BBE9D" name="T_DL_TELEFONE_RELACIONAMENTO_T_DL_TELEFONE_FK">
+<createdBy>alber</createdBy>
+<createdTime>2023-09-27 23:46:23 UTC</createdTime>
+<generatorID>FC8DB838-6766-CF98-BA16-4D3CEDFB3781</generatorID>
+<ownerDesignName>DL_BRQ_datamodeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4ACC4D16-15A8-9A4C-0F4C-2FB98D61C9C4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

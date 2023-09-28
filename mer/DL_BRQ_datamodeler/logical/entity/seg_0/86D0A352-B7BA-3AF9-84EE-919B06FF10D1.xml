@@ -4,7 +4,7 @@
 <createdTime>2023-05-19 01:07:14 UTC</createdTime>
 <ownerDesignName>DL_BRQ_datamodeler</ownerDesignName>
 <engineerTo>
-<item key="748F7ACB-9546-7F14-B116-AA4C5626BC20" value="true"/>
+<item key="67DCC40D-2929-0986-43D6-AFD771CACBD5" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -15,15 +15,31 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="cd_foto_vistoria" id="25FBB1B9-ED33-C27B-6245-5C3A6CC4F241">
-<createdBy>danil</createdBy>
-<createdTime>2023-05-19 01:07:33 UTC</createdTime>
+<Attribute name="cd_foto_vistoria" id="F7DD0951-7B35-ED4E-CBE3-56944C3DEDB3">
+<createdBy>alber</createdBy>
+<createdTime>2023-09-28 01:12:06 UTC</createdTime>
 <ownerDesignName>DL_BRQ_datamodeler</ownerDesignName>
 <engineerTo>
-<item key="748F7ACB-9546-7F14-B116-AA4C5626BC20" value="true"/>
+<item key="67DCC40D-2929-0986-43D6-AFD771CACBD5" value="true"/>
 </engineerTo>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_caminho_foto" id="EAE0DDD5-EFFE-4478-C001-9886C4D6B1AB">
+<createdBy>danil</createdBy>
+<createdTime>2023-05-19 01:07:56 UTC</createdTime>
+<ownerDesignName>DL_BRQ_datamodeler</ownerDesignName>
+<engineerTo>
+<item key="67DCC40D-2929-0986-43D6-AFD771CACBD5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 CHAR</dataTypeSize>
+<ownDataTypeParameters>255 CHAR,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="cd_vistoria" id="3E663110-E33D-0B66-C6A9-D52CD22A64B5">
 <createdBy>alber</createdBy>
@@ -31,20 +47,13 @@
 <generatorID>40AF19B4-AB38-1194-9D83-05F2BAAC2F0E</generatorID>
 <ownerDesignName>DL_BRQ_datamodeler</ownerDesignName>
 <engineerTo>
-<item key="748F7ACB-9546-7F14-B116-AA4C5626BC20" value="true"/>
+<item key="67DCC40D-2929-0986-43D6-AFD771CACBD5" value="true"/>
 </engineerTo>
 <referedAttribute>EC42F0A3-E177-2A9B-6B3A-429B06E192CC</referedAttribute>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="ds_caminho_foto" id="EAE0DDD5-EFFE-4478-C001-9886C4D6B1AB">
-<createdBy>danil</createdBy>
-<createdTime>2023-05-19 01:07:56 UTC</createdTime>
-<ownerDesignName>DL_BRQ_datamodeler</ownerDesignName>
-<engineerTo>
-<item key="748F7ACB-9546-7F14-B116-AA4C5626BC20" value="true"/>
-</engineerTo>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
@@ -53,13 +62,12 @@
 <createdBy>danil</createdBy>
 <createdTime>2023-05-19 01:07:43 UTC</createdTime>
 <ownerDesignName>DL_BRQ_datamodeler</ownerDesignName>
-<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="748F7ACB-9546-7F14-B116-AA4C5626BC20" value="false"/>
+<item key="67DCC40D-2929-0986-43D6-AFD771CACBD5" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>25FBB1B9-ED33-C27B-6245-5C3A6CC4F241</attributeRef>
+<attributeRef>F7DD0951-7B35-ED4E-CBE3-56944C3DEDB3</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

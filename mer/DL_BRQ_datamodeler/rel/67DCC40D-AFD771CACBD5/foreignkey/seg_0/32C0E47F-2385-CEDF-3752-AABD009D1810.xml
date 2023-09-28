@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="32C0E47F-2385-CEDF-3752-AABD009D1810" containerWithKeyObject="7B1237B7-29DF-CC29-387E-6AC95D8C8188" localFKIndex="37FF3A16-4D9E-1822-C254-D3CA67185E87" name="T_DL_TELEFONE_RELACIONAMENTO_T_DL_PROPRIETARIO_VEICULO_FK">
+<createdBy>alber</createdBy>
+<createdTime>2023-09-27 23:46:22 UTC</createdTime>
+<generatorID>FED280C9-7A1F-DC20-9102-EFFE0680134F</generatorID>
+<ownerDesignName>DL_BRQ_datamodeler</ownerDesignName>
+<referredTableLongName>T_DL_PROPRIETARIO_VEICULO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>B152F674-18BC-DDF9-3B44-5ADE39C95570</referredTableID>
+<keyObject>2DFB4B6F-C791-A75F-792C-56999C0A97B5</keyObject>
+<referredKeyID>2DFB4B6F-C791-A75F-792C-56999C0A97B5</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>cd_proprietario</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

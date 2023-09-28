@@ -4,7 +4,7 @@
 <createdTime>2023-05-13 22:40:05 UTC</createdTime>
 <ownerDesignName>DL_BRQ_datamodeler</ownerDesignName>
 <engineerTo>
-<item key="748F7ACB-9546-7F14-B116-AA4C5626BC20" value="true"/>
+<item key="67DCC40D-2929-0986-43D6-AFD771CACBD5" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -20,33 +20,235 @@
 <createdTime>2023-05-13 22:40:13 UTC</createdTime>
 <ownerDesignName>DL_BRQ_datamodeler</ownerDesignName>
 <engineerTo>
-<item key="748F7ACB-9546-7F14-B116-AA4C5626BC20" value="true"/>
+<item key="67DCC40D-2929-0986-43D6-AFD771CACBD5" value="true"/>
 </engineerTo>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>7 CHAR</dataTypeSize>
+<ownDataTypeParameters>7 CHAR,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="cd_proprietario" id="36EAE5AC-8296-B467-B2FA-23CB72919342">
+<Attribute name="nm_modelo" id="1AB64B49-61BD-C253-C614-AB6696017AB7">
 <createdBy>alber</createdBy>
-<createdTime>2023-05-13 23:30:26 UTC</createdTime>
-<generatorID>D3441719-04A4-5B51-26D6-2DFFD4B6015E</generatorID>
+<createdTime>2023-05-13 22:40:42 UTC</createdTime>
 <ownerDesignName>DL_BRQ_datamodeler</ownerDesignName>
 <engineerTo>
-<item key="748F7ACB-9546-7F14-B116-AA4C5626BC20" value="true"/>
+<item key="67DCC40D-2929-0986-43D6-AFD771CACBD5" value="true"/>
 </engineerTo>
-<referedAttribute>5240346F-C132-7670-D069-D5D57219F017</referedAttribute>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="cd_tipo" id="12EF1B74-86F1-1B25-9CC2-5EA4086DF09F">
+<Attribute name="nr_ano_modelo" id="9883A8FB-04B0-3B3E-0964-BFE60DE6EC7C">
 <createdBy>alber</createdBy>
-<createdTime>2023-05-16 01:36:45 UTC</createdTime>
-<generatorID>8D81CD9E-E312-A19E-1ACA-D30E252C944F</generatorID>
+<createdTime>2023-05-13 22:41:33 UTC</createdTime>
 <ownerDesignName>DL_BRQ_datamodeler</ownerDesignName>
 <engineerTo>
-<item key="748F7ACB-9546-7F14-B116-AA4C5626BC20" value="true"/>
+<item key="67DCC40D-2929-0986-43D6-AFD771CACBD5" value="true"/>
 </engineerTo>
-<referedAttribute>4D50B6A1-19E8-1150-5FA2-CD371B951993</referedAttribute>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_ano_fabricacao" id="6539B1C2-4872-A713-38EA-DDDA5B49362C">
+<createdBy>alber</createdBy>
+<createdTime>2023-09-27 02:30:05 UTC</createdTime>
+<ownerDesignName>DL_BRQ_datamodeler</ownerDesignName>
+<engineerTo>
+<item key="67DCC40D-2929-0986-43D6-AFD771CACBD5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_renavam" id="1AEB5554-AA56-899E-4C04-19BD1237553E">
+<createdBy>alber</createdBy>
+<createdTime>2023-05-13 22:41:49 UTC</createdTime>
+<ownerDesignName>DL_BRQ_datamodeler</ownerDesignName>
+<engineerTo>
+<item key="67DCC40D-2929-0986-43D6-AFD771CACBD5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11 CHAR</dataTypeSize>
+<ownDataTypeParameters>11 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_veiculo" id="E98C9ABB-EFED-F120-740B-11FF70A5B73B">
+<createdBy>alber</createdBy>
+<createdTime>2023-05-13 22:42:43 UTC</createdTime>
+<ownerDesignName>DL_BRQ_datamodeler</ownerDesignName>
+<engineerTo>
+<item key="67DCC40D-2929-0986-43D6-AFD771CACBD5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1000 CHAR</dataTypeSize>
+<ownDataTypeParameters>1000 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_chassi" id="017D480D-C930-B030-F414-720272276139">
+<createdBy>alber</createdBy>
+<createdTime>2023-09-27 02:29:57 UTC</createdTime>
+<ownerDesignName>DL_BRQ_datamodeler</ownerDesignName>
+<engineerTo>
+<item key="67DCC40D-2929-0986-43D6-AFD771CACBD5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>17 CHAR</dataTypeSize>
+<ownDataTypeParameters>17 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="vl_preco" id="290BEA97-6F97-B286-3B34-1B67C30E961E">
+<createdBy>alber</createdBy>
+<createdTime>2023-09-27 02:30:39 UTC</createdTime>
+<ownerDesignName>DL_BRQ_datamodeler</ownerDesignName>
+<engineerTo>
+<item key="67DCC40D-2929-0986-43D6-AFD771CACBD5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,6,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="vl_km_rodado" id="6B040B52-34E8-2D15-4CA0-47AB1042B756">
+<createdBy>alber</createdBy>
+<createdTime>2023-09-27 02:30:47 UTC</createdTime>
+<ownerDesignName>DL_BRQ_datamodeler</ownerDesignName>
+<engineerTo>
+<item key="67DCC40D-2929-0986-43D6-AFD771CACBD5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,7,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_tipo_preco" id="4255473A-5085-05A6-C5B4-58EA573894C5">
+<createdBy>alber</createdBy>
+<createdTime>2023-09-27 02:31:01 UTC</createdTime>
+<ownerDesignName>DL_BRQ_datamodeler</ownerDesignName>
+<engineerTo>
+<item key="67DCC40D-2929-0986-43D6-AFD771CACBD5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="vl_ar_condicionado" id="B0902800-2B43-BDB7-9054-5E2B31087FCB">
+<createdBy>alber</createdBy>
+<createdTime>2023-09-27 02:31:30 UTC</createdTime>
+<ownerDesignName>DL_BRQ_datamodeler</ownerDesignName>
+<engineerTo>
+<item key="67DCC40D-2929-0986-43D6-AFD771CACBD5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="vl_cambio_automatico" id="607E3B44-7DF3-45CF-BED2-7E312396EB6D">
+<createdBy>alber</createdBy>
+<createdTime>2023-09-27 02:31:55 UTC</createdTime>
+<ownerDesignName>DL_BRQ_datamodeler</ownerDesignName>
+<engineerTo>
+<item key="67DCC40D-2929-0986-43D6-AFD771CACBD5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_marchas" id="C4F2A834-E4F7-C046-A993-E9A4947FA544">
+<createdBy>alber</createdBy>
+<createdTime>2023-09-27 02:32:04 UTC</createdTime>
+<ownerDesignName>DL_BRQ_datamodeler</ownerDesignName>
+<engineerTo>
+<item key="67DCC40D-2929-0986-43D6-AFD771CACBD5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_cilindros" id="211F1C50-A3E0-079F-3F36-7D3D66C8BF87">
+<createdBy>alber</createdBy>
+<createdTime>2023-09-27 02:32:14 UTC</createdTime>
+<ownerDesignName>DL_BRQ_datamodeler</ownerDesignName>
+<engineerTo>
+<item key="67DCC40D-2929-0986-43D6-AFD771CACBD5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="vl_consumo" id="D822BF4C-C6F3-6161-063B-FB73B36C9CBD">
+<createdBy>alber</createdBy>
+<createdTime>2023-09-27 02:32:28 UTC</createdTime>
+<ownerDesignName>DL_BRQ_datamodeler</ownerDesignName>
+<engineerTo>
+<item key="67DCC40D-2929-0986-43D6-AFD771CACBD5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<dataTypeScale>1</dataTypeScale>
+<ownDataTypeParameters>,3,1</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_assentos" id="0A4354C7-2657-E1F6-6378-093592027AC8">
+<createdBy>alber</createdBy>
+<createdTime>2023-09-27 02:32:38 UTC</createdTime>
+<ownerDesignName>DL_BRQ_datamodeler</ownerDesignName>
+<engineerTo>
+<item key="67DCC40D-2929-0986-43D6-AFD771CACBD5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<ownDataTypeParameters>,1,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="vl_alugado" id="2D34A733-4768-96F1-4DC0-E5CBA1A59387">
+<createdBy>alber</createdBy>
+<createdTime>2023-09-27 02:33:01 UTC</createdTime>
+<ownerDesignName>DL_BRQ_datamodeler</ownerDesignName>
+<engineerTo>
+<item key="67DCC40D-2929-0986-43D6-AFD771CACBD5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_fabricante" id="52855444-7095-341A-37B5-4664433286ED">
+<createdBy>alber</createdBy>
+<createdTime>2023-09-27 02:35:53 UTC</createdTime>
+<generatorID>8B524105-48E2-ABEF-5FCB-F8F316FD630D</generatorID>
+<ownerDesignName>DL_BRQ_datamodeler</ownerDesignName>
+<engineerTo>
+<item key="67DCC40D-2929-0986-43D6-AFD771CACBD5" value="true"/>
+</engineerTo>
+<referedAttribute>FCC16E9C-CF64-3A09-8A17-074A85CD58F0</referedAttribute>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="cd_categoria" id="C17ED304-B361-CDA8-2EC7-63312913591F">
@@ -55,202 +257,40 @@
 <generatorID>0F8BAB01-A09C-D64C-766A-CE30D6BF00F2</generatorID>
 <ownerDesignName>DL_BRQ_datamodeler</ownerDesignName>
 <engineerTo>
-<item key="748F7ACB-9546-7F14-B116-AA4C5626BC20" value="true"/>
+<item key="67DCC40D-2929-0986-43D6-AFD771CACBD5" value="true"/>
 </engineerTo>
 <referedAttribute>9F98C15A-5361-8F5A-E1E6-A0C4A091717B</referedAttribute>
-<use>0</use>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="nm_modelo" id="1AB64B49-61BD-C253-C614-AB6696017AB7">
+<Attribute name="cd_tipo" id="12EF1B74-86F1-1B25-9CC2-5EA4086DF09F">
 <createdBy>alber</createdBy>
-<createdTime>2023-05-13 22:40:42 UTC</createdTime>
+<createdTime>2023-05-16 01:36:45 UTC</createdTime>
+<generatorID>8D81CD9E-E312-A19E-1ACA-D30E252C944F</generatorID>
 <ownerDesignName>DL_BRQ_datamodeler</ownerDesignName>
 <engineerTo>
-<item key="748F7ACB-9546-7F14-B116-AA4C5626BC20" value="true"/>
+<item key="67DCC40D-2929-0986-43D6-AFD771CACBD5" value="true"/>
 </engineerTo>
-<use>0</use>
+<referedAttribute>4D50B6A1-19E8-1150-5FA2-CD371B951993</referedAttribute>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="nr_ano_modelo" id="9883A8FB-04B0-3B3E-0964-BFE60DE6EC7C">
+<Attribute name="cd_proprietario" id="36EAE5AC-8296-B467-B2FA-23CB72919342">
 <createdBy>alber</createdBy>
-<createdTime>2023-05-13 22:41:33 UTC</createdTime>
+<createdTime>2023-05-13 23:30:26 UTC</createdTime>
+<generatorID>D3441719-04A4-5B51-26D6-2DFFD4B6015E</generatorID>
 <ownerDesignName>DL_BRQ_datamodeler</ownerDesignName>
 <engineerTo>
-<item key="748F7ACB-9546-7F14-B116-AA4C5626BC20" value="true"/>
+<item key="67DCC40D-2929-0986-43D6-AFD771CACBD5" value="true"/>
 </engineerTo>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="nr_renavam" id="1AEB5554-AA56-899E-4C04-19BD1237553E">
-<createdBy>alber</createdBy>
-<createdTime>2023-05-13 22:41:49 UTC</createdTime>
-<ownerDesignName>DL_BRQ_datamodeler</ownerDesignName>
-<engineerTo>
-<item key="748F7ACB-9546-7F14-B116-AA4C5626BC20" value="true"/>
-</engineerTo>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="ds_veiculo" id="E98C9ABB-EFED-F120-740B-11FF70A5B73B">
-<createdBy>alber</createdBy>
-<createdTime>2023-05-13 22:42:43 UTC</createdTime>
-<ownerDesignName>DL_BRQ_datamodeler</ownerDesignName>
-<engineerTo>
-<item key="748F7ACB-9546-7F14-B116-AA4C5626BC20" value="true"/>
-</engineerTo>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="nr_chassi" id="017D480D-C930-B030-F414-720272276139">
-<createdBy>alber</createdBy>
-<createdTime>2023-09-27 02:29:57 UTC</createdTime>
-<ownerDesignName>DL_BRQ_datamodeler</ownerDesignName>
-<engineerTo>
-<item key="748F7ACB-9546-7F14-B116-AA4C5626BC20" value="true"/>
-</engineerTo>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="nr_ano_fabricacao" id="6539B1C2-4872-A713-38EA-DDDA5B49362C">
-<createdBy>alber</createdBy>
-<createdTime>2023-09-27 02:30:05 UTC</createdTime>
-<ownerDesignName>DL_BRQ_datamodeler</ownerDesignName>
-<engineerTo>
-<item key="748F7ACB-9546-7F14-B116-AA4C5626BC20" value="true"/>
-</engineerTo>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="nr_renavam_1" id="CD577082-2174-B7CF-B347-24F8764EA860">
-<createdBy>alber</createdBy>
-<createdTime>2023-09-27 02:30:15 UTC</createdTime>
-<ownerDesignName>DL_BRQ_datamodeler</ownerDesignName>
-<engineerTo>
-<item key="748F7ACB-9546-7F14-B116-AA4C5626BC20" value="true"/>
-</engineerTo>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="vl_preco" id="290BEA97-6F97-B286-3B34-1B67C30E961E">
-<createdBy>alber</createdBy>
-<createdTime>2023-09-27 02:30:39 UTC</createdTime>
-<ownerDesignName>DL_BRQ_datamodeler</ownerDesignName>
-<engineerTo>
-<item key="748F7ACB-9546-7F14-B116-AA4C5626BC20" value="true"/>
-</engineerTo>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="vl_km_rodado" id="6B040B52-34E8-2D15-4CA0-47AB1042B756">
-<createdBy>alber</createdBy>
-<createdTime>2023-09-27 02:30:47 UTC</createdTime>
-<ownerDesignName>DL_BRQ_datamodeler</ownerDesignName>
-<engineerTo>
-<item key="748F7ACB-9546-7F14-B116-AA4C5626BC20" value="true"/>
-</engineerTo>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="ds_tipo_preco" id="4255473A-5085-05A6-C5B4-58EA573894C5">
-<createdBy>alber</createdBy>
-<createdTime>2023-09-27 02:31:01 UTC</createdTime>
-<ownerDesignName>DL_BRQ_datamodeler</ownerDesignName>
-<engineerTo>
-<item key="748F7ACB-9546-7F14-B116-AA4C5626BC20" value="true"/>
-</engineerTo>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="vl_ar_condicionado" id="B0902800-2B43-BDB7-9054-5E2B31087FCB">
-<createdBy>alber</createdBy>
-<createdTime>2023-09-27 02:31:30 UTC</createdTime>
-<ownerDesignName>DL_BRQ_datamodeler</ownerDesignName>
-<engineerTo>
-<item key="748F7ACB-9546-7F14-B116-AA4C5626BC20" value="true"/>
-</engineerTo>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="vl_cambio_automatico" id="607E3B44-7DF3-45CF-BED2-7E312396EB6D">
-<createdBy>alber</createdBy>
-<createdTime>2023-09-27 02:31:55 UTC</createdTime>
-<ownerDesignName>DL_BRQ_datamodeler</ownerDesignName>
-<engineerTo>
-<item key="748F7ACB-9546-7F14-B116-AA4C5626BC20" value="true"/>
-</engineerTo>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="nr_marchas" id="C4F2A834-E4F7-C046-A993-E9A4947FA544">
-<createdBy>alber</createdBy>
-<createdTime>2023-09-27 02:32:04 UTC</createdTime>
-<ownerDesignName>DL_BRQ_datamodeler</ownerDesignName>
-<engineerTo>
-<item key="748F7ACB-9546-7F14-B116-AA4C5626BC20" value="true"/>
-</engineerTo>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="nr_cilindros" id="211F1C50-A3E0-079F-3F36-7D3D66C8BF87">
-<createdBy>alber</createdBy>
-<createdTime>2023-09-27 02:32:14 UTC</createdTime>
-<ownerDesignName>DL_BRQ_datamodeler</ownerDesignName>
-<engineerTo>
-<item key="748F7ACB-9546-7F14-B116-AA4C5626BC20" value="true"/>
-</engineerTo>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="vl_consumo" id="D822BF4C-C6F3-6161-063B-FB73B36C9CBD">
-<createdBy>alber</createdBy>
-<createdTime>2023-09-27 02:32:28 UTC</createdTime>
-<ownerDesignName>DL_BRQ_datamodeler</ownerDesignName>
-<engineerTo>
-<item key="748F7ACB-9546-7F14-B116-AA4C5626BC20" value="true"/>
-</engineerTo>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="nr_assentos" id="0A4354C7-2657-E1F6-6378-093592027AC8">
-<createdBy>alber</createdBy>
-<createdTime>2023-09-27 02:32:38 UTC</createdTime>
-<ownerDesignName>DL_BRQ_datamodeler</ownerDesignName>
-<engineerTo>
-<item key="748F7ACB-9546-7F14-B116-AA4C5626BC20" value="true"/>
-</engineerTo>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="ds_fotos" id="E7034BC4-6F51-D4B9-9E06-D1E981B59C07">
-<createdBy>alber</createdBy>
-<createdTime>2023-09-27 02:32:52 UTC</createdTime>
-<ownerDesignName>DL_BRQ_datamodeler</ownerDesignName>
-<engineerTo>
-<item key="748F7ACB-9546-7F14-B116-AA4C5626BC20" value="true"/>
-</engineerTo>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="vl_alugado" id="2D34A733-4768-96F1-4DC0-E5CBA1A59387">
-<createdBy>alber</createdBy>
-<createdTime>2023-09-27 02:33:01 UTC</createdTime>
-<ownerDesignName>DL_BRQ_datamodeler</ownerDesignName>
-<engineerTo>
-<item key="748F7ACB-9546-7F14-B116-AA4C5626BC20" value="true"/>
-</engineerTo>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="cd_fabricante" id="52855444-7095-341A-37B5-4664433286ED">
-<createdBy>alber</createdBy>
-<createdTime>2023-09-27 02:35:53 UTC</createdTime>
-<generatorID>8B524105-48E2-ABEF-5FCB-F8F316FD630D</generatorID>
-<ownerDesignName>DL_BRQ_datamodeler</ownerDesignName>
-<engineerTo>
-<item key="748F7ACB-9546-7F14-B116-AA4C5626BC20" value="true"/>
-</engineerTo>
-<referedAttribute>FCC16E9C-CF64-3A09-8A17-074A85CD58F0</referedAttribute>
-<use>0</use>
+<referedAttribute>5240346F-C132-7670-D069-D5D57219F017</referedAttribute>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
@@ -259,9 +299,8 @@
 <createdBy>alber</createdBy>
 <createdTime>2023-05-13 22:40:19 UTC</createdTime>
 <ownerDesignName>DL_BRQ_datamodeler</ownerDesignName>
-<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="748F7ACB-9546-7F14-B116-AA4C5626BC20" value="false"/>
+<item key="67DCC40D-2929-0986-43D6-AFD771CACBD5" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <newElementsIDs>C27E40D6-A995-4D27-0D9F-57A0B826A17C</newElementsIDs>

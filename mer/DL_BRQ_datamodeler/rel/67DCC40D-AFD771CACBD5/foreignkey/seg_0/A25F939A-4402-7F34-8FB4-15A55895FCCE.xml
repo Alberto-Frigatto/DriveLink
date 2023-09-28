@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="A25F939A-4402-7F34-8FB4-15A55895FCCE" containerWithKeyObject="5C2C6EB9-2359-3A70-51A4-2756B025BA1A" localFKIndex="ED9F89C6-FEE5-4444-89D0-032308297DEC" name="T_DL_LOCACAO_T_DL_CARTAO_CREDITO_FK">
+<createdBy>alber</createdBy>
+<createdTime>2023-09-27 23:46:22 UTC</createdTime>
+<generatorID>BE685A83-F8F5-9AC5-F739-B85E12918D5B</generatorID>
+<ownerDesignName>DL_BRQ_datamodeler</ownerDesignName>
+<referredTableLongName>T_DL_CARTAO_CREDITO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>E198E28B-8372-3C8F-D23D-9D43F8186D01</referredTableID>
+<keyObject>2DDB7090-FB18-9C3C-A19E-5032A9E203BA</keyObject>
+<referredKeyID>2DDB7090-FB18-9C3C-A19E-5032A9E203BA</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>cd_cartao</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,119 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="ED581579-E839-3996-73A1-48E620D10D1C" name="T_DL_FOTO_DOCUMENTO_CLIENTE">
+<createdBy>alber</createdBy>
+<createdTime>2023-09-27 23:46:22 UTC</createdTime>
+<generatorID>90061024-E99C-B690-3891-1EF3B595D289</generatorID>
+<ownerDesignName>DL_BRQ_datamodeler</ownerDesignName>
+<abbreviation>DOCUMENTOS</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_foto_documento" id="21094623-94D6-E6DD-083D-0F94791EBA77">
+<createdBy>alber</createdBy>
+<createdTime>2023-09-27 23:46:22 UTC</createdTime>
+<generatorID>88243CBC-E92B-0DD9-9D05-8C1E92C98C50</generatorID>
+<ownerDesignName>DL_BRQ_datamodeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_DL_CLIENTE_cd_cliente" id="0E14EAE5-74A0-B76D-3FDC-C11061200065">
+<createdBy>alber</createdBy>
+<createdTime>2023-09-27 23:46:22 UTC</createdTime>
+<generatorID>9042E4ED-F8A5-CE42-F6D9-3F6DAA978F3B</generatorID>
+<ownerDesignName>DL_BRQ_datamodeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FFC397F0-93C1-8951-455F-C15F13383EF6" referredColumn="15AFDBD4-94DC-4EEF-4B28-EF1319286F82"/>
+</associations>
+</Column>
+<Column name="T_DL_TIPO_DOCUMENTO_cd_tipo_documento" id="0979DDF7-C816-5D30-AD32-F96BAA7F6857">
+<createdBy>alber</createdBy>
+<createdTime>2023-09-27 23:46:22 UTC</createdTime>
+<generatorID>530EC582-A795-F6A8-936E-8F2DCED489F7</generatorID>
+<ownerDesignName>DL_BRQ_datamodeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CF61F659-A837-6368-B96F-6602A559B8A9" referredColumn="05076605-1744-55A0-E556-482F6EB2D8CF"/>
+</associations>
+</Column>
+<Column name="ds_caminho_foto" id="CD8DF548-4A87-A5F9-4C4F-00F2AAE961BA">
+<createdBy>alber</createdBy>
+<createdTime>2023-09-27 23:46:22 UTC</createdTime>
+<generatorID>C66CBEB4-3A17-2C35-9677-79DBE72294C9</generatorID>
+<ownerDesignName>DL_BRQ_datamodeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 CHAR</dataTypeSize>
+<ownDataTypeParameters>255 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vl_status" id="F169FB7D-17A0-987B-3939-B1DF0DFE037C">
+<createdBy>alber</createdBy>
+<createdTime>2023-09-27 23:46:22 UTC</createdTime>
+<commentInRDBMS><![CDATA[Indica se a foto esta aprovada ou não.
+Alterar o nome do campo*]]></commentInRDBMS>
+<generatorID>8D8B3BF9-D894-5EBD-8609-369B96BEF8CD</generatorID>
+<ownerDesignName>DL_BRQ_datamodeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0127AD56-F2ED-AE7C-EC5C-6EB2AD4DF9BF" name="T_DL_FOTO_DOCUMENTO_CLIENTE_PK">
+<createdBy>alber</createdBy>
+<createdTime>2023-09-27 23:46:22 UTC</createdTime>
+<generatorID>3D3DC73E-8A81-9B88-18E9-30117B8EA5AC</generatorID>
+<ownerDesignName>DL_BRQ_datamodeler</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="21094623-94D6-E6DD-083D-0F94791EBA77"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6E7CF747-F453-7C61-E107-F8589FADA788" name="T_DL_FOTO_DOCUMENTO_CLIENTE_T_DL_CLIENTE_FK">
+<createdBy>alber</createdBy>
+<createdTime>2023-09-27 23:46:22 UTC</createdTime>
+<generatorID>A83B1E56-1FBE-7FFE-E32D-A3EC40ADE0A5</generatorID>
+<ownerDesignName>DL_BRQ_datamodeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0E14EAE5-74A0-B76D-3FDC-C11061200065"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="53774A0F-B8AD-68DC-0784-4AF2FAB08CC9" name="T_DL_FOTO_DOCUMENTO_CLIENTE_T_DL_TIPO_DOCUMENTO_FK">
+<createdBy>alber</createdBy>
+<createdTime>2023-09-27 23:46:23 UTC</createdTime>
+<generatorID>728C6206-7E36-EB24-8580-31D7D7A85778</generatorID>
+<ownerDesignName>DL_BRQ_datamodeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0979DDF7-C816-5D30-AD32-F96BAA7F6857"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

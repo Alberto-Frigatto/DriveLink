@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="F180FF62-E850-5FE5-EFF3-9591F577207E" containerWithKeyObject="54A8DF3F-291D-5C80-B34D-328B0EB44B70" localFKIndex="B11F3E4D-5E57-FF39-B286-3DED50C04A0E" name="T_DL_PLANO_SEGURO_T_DL_SEGURADORA_FK">
+<createdBy>alber</createdBy>
+<createdTime>2023-09-27 23:46:23 UTC</createdTime>
+<generatorID>F17B7FF0-A356-727B-3641-D6081367AB64</generatorID>
+<ownerDesignName>DL_BRQ_datamodeler</ownerDesignName>
+<referredTableLongName>T_DL_SEGURADORA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>310AC291-103C-FE5B-6441-1E07626BC13B</referredTableID>
+<keyObject>61089407-49FC-98E7-E1C7-58CF18B3F79E</keyObject>
+<referredKeyID>61089407-49FC-98E7-E1C7-58CF18B3F79E</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>cd_seguradora</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
